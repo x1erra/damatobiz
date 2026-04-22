@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Damato | Software Developer",
-  description: "Damato is a software developer building modern, performant web applications and digital products.",
+  title: "damato.biz | Software Portfolio",
+  description: "A professional portfolio and tool catalog for Damato-built finance, operations, and reporting software.",
 };
 
 export default function RootLayout({

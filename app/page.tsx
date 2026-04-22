@@ -2,6 +2,23 @@
 
 import { useEffect, useRef } from 'react';
 
+const projects = [
+  {
+    name: 'APP Look-Thru Reporting',
+    href: '/calc',
+    meta: 'Production Streamlit tool',
+    description:
+      'Portfolio reporting workflow for APP statements, support files, look-through calculations, and export-ready reporting.',
+  },
+  {
+    name: 'CI Stats Analyzer',
+    href: '/csanalyzer',
+    meta: 'Next.js analytics tool',
+    description:
+      'Custom statement generation analytics with upload management, dashboard views, and problem spotting for operational review.',
+  },
+];
+
 export default function Home() {
   const menuRef = useRef<HTMLButtonElement>(null);
   const navRef = useRef<HTMLUListElement>(null);
@@ -21,22 +38,21 @@ export default function Home() {
         const isOpen = navLinks.classList.toggle('open');
         menuToggle.setAttribute('aria-expanded', String(isOpen));
       };
+      const handleAnchorClick = () => {
+        navLinks.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      };
+
       menuToggle.addEventListener('click', handleClick);
 
       navAnchors?.forEach((anchor) => {
-        anchor.addEventListener('click', () => {
-          navLinks.classList.remove('open');
-          menuToggle.setAttribute('aria-expanded', 'false');
-        });
+        anchor.addEventListener('click', handleAnchorClick);
       });
 
       return () => {
         menuToggle.removeEventListener('click', handleClick);
         navAnchors?.forEach((anchor) => {
-          anchor.removeEventListener('click', () => {
-            navLinks.classList.remove('open');
-            menuToggle.setAttribute('aria-expanded', 'false');
-          });
+          anchor.removeEventListener('click', handleAnchorClick);
         });
       };
     }
@@ -86,10 +102,10 @@ export default function Home() {
 
       <main id="top">
         <section className="hero container fade-in">
-          <p className="eyebrow">Software Developer</p>
-          <h1>Damato</h1>
+          <p className="eyebrow">Software Portfolio</p>
+          <h1>damato.biz</h1>
           <p className="tagline">
-            Building high-performance web experiences with clean architecture, modern tooling, and a focus on product quality.
+            A professional home for focused finance, operations, and reporting tools built with clean architecture and reliable deployment workflows.
           </p>
           <a href="#projects" className="cta">View Projects</a>
         </section>
@@ -97,22 +113,33 @@ export default function Home() {
         <section id="about" className="section container fade-in">
           <h2>About</h2>
           <p>
-            I design and deliver production-ready software solutions that balance technical depth with business impact.
-            My work focuses on building reliable, maintainable systems with modern frontend and backend technologies.
-            I prioritize performance, developer experience, and thoughtful execution from idea to deployment.
+            I build practical software for workflows where accuracy, clarity, and maintainability matter.
+            This site collects the tools I ship, the systems behind them, and the technical profile behind future work.
           </p>
         </section>
 
         <section id="projects" className="section container fade-in">
           <h2>Projects</h2>
-          <article className="card">
-            <h3>calc.damato.biz</h3>
-            <p>
-              A focused product showcasing practical software craftsmanship through intuitive UX, responsive design,
-              and performant implementation.
-            </p>
-            <a href="https://calc.damato.biz" target="_blank" rel="noopener noreferrer">Visit Project</a>
-          </article>
+          <div className="project-grid">
+            {projects.map((project) => {
+              const isExternal = project.href.startsWith('http');
+
+              return (
+                <article className="card project-card" key={project.name}>
+                  <p className="project-meta">{project.meta}</p>
+                  <h3>{project.name}</h3>
+                  <p>{project.description}</p>
+                  <a
+                    href={project.href}
+                    target={isExternal ? '_blank' : undefined}
+                    rel={isExternal ? 'noopener noreferrer' : undefined}
+                  >
+                    Open Project
+                  </a>
+                </article>
+              );
+            })}
+          </div>
         </section>
 
         <section id="skills" className="section container fade-in">

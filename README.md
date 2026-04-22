@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# damato.biz
 
-## Getting Started
+Professional portfolio and tool catalog for Damato-built software.
 
-First, run the development server:
+## Repository Layout
+
+- `app/` - Next.js portfolio site and App Router routes.
+- `app/calc/` - Redirect route so `damato.biz/calc` opens the APP Look-Thru Reporting deployment at `calc.damato.biz`.
+- `app/(csanalyzer)/csanalyzer/` - CI Stats Analyzer route.
+- `components/`, `lib/`, `types/` - Shared code used by the Next.js tools.
+- `tools/app-statements-calculator/` - APP Look-Thru Reporting Streamlit app copied from `x1erra/APPStatementsCalculator` without changing the calculator implementation.
+
+## Local Development
+
+Run the portfolio and Next.js tools:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Run the APP Look-Thru Reporting tool:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+cd tools/app-statements-calculator
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The repo root is the Vercel project for `damato.biz`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The Streamlit calculator remains deployable from `tools/app-statements-calculator` with its existing `Dockerfile`, `docker-compose.yml`, and `render.yaml`. Keep `calc.damato.biz` pointed at that app unless the calculator is intentionally rewritten as a Next.js route later.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Branches
 
-## Deploy on Vercel
+Use `master` as the live branch for the consolidated repo. The older `main` branch exists remotely and can be archived or deleted after Vercel is configured to deploy only `master`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Vercel Cleanup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Recommended target state:
+
+- Keep one Vercel project for this repo root: `damatobiz`.
+- Set the production branch to `master`.
+- Keep `damato.biz` assigned to that project.
+- Remove the duplicate `damatobiz1` project after the `damatobiz` deployment is healthy.
+- Keep `calc.damato.biz` pointed at the Streamlit calculator deployment unless the calculator is deliberately rebuilt as a Next.js route.

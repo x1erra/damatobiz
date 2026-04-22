@@ -1,8 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* csanalyzer is isolated — reset any inherited styles */
+/* csanalyzer is isolated - reset any inherited styles */
 * {
   box-sizing: border-box;
 }
