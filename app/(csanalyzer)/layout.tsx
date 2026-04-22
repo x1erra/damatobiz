@@ -15,8 +15,14 @@ export default function CSanalyzerLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className={`${inter.className} bg-slate-950 text-slate-50 min-h-screen`}>
-      {children}
-    </div>
+    <html lang="en" className="dark" suppressHydrationWarning>
+      <head />
+      <body
+        className={`${inter.className} bg-slate-950 text-slate-50 min-h-screen`}
+        suppressHydrationWarning
+      >
+        {children}
+      </body>
+    </html>
   );
 }
