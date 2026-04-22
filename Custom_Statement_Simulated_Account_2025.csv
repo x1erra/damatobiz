@@ -1,0 +1,1092 @@
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250101"
+End Date:,="20250107"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-01-01,2025-01-07,Account Level Statements,APP,1. less than 5 secs,504,9%,4,5,5,
+2025-01-01,2025-01-07,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-01-01,2025-01-07,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-01-01,2025-01-07,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-01-01,2025-01-07,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-01-01,2025-01-07,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-01-01,2025-01-07,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-01-01,2025-01-07,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-01-01,2025-01-07,Account Level Statements,APP,9. Over a minute,26,78%,91,134,168,
+2025-01-01,2025-01-07,Account Level Statements,Optima,9. Over a minute,16,0%,98,98,98,
+2025-01-01,2025-01-07, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250108"
+End Date:,="20250114"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-01-08,2025-01-14,Account Level Statements,APP,1. less than 5 secs,478,9%,4,5,5,
+2025-01-08,2025-01-14,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-01-08,2025-01-14,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-01-08,2025-01-14,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-01-08,2025-01-14,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-01-08,2025-01-14,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-01-08,2025-01-14,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-01-08,2025-01-14,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-01-08,2025-01-14,Account Level Statements,APP,9. Over a minute,18,78%,91,134,168,
+2025-01-08,2025-01-14,Account Level Statements,Optima,9. Over a minute,25,0%,98,98,98,
+2025-01-08,2025-01-14, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250115"
+End Date:,="20250121"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-01-15,2025-01-21,Account Level Statements,APP,1. less than 5 secs,440,9%,4,5,5,
+2025-01-15,2025-01-21,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-01-15,2025-01-21,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-01-15,2025-01-21,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-01-15,2025-01-21,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-01-15,2025-01-21,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-01-15,2025-01-21,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-01-15,2025-01-21,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-01-15,2025-01-21,Account Level Statements,APP,9. Over a minute,15,78%,91,134,168,
+2025-01-15,2025-01-21,Account Level Statements,Optima,9. Over a minute,27,0%,98,98,98,
+2025-01-15,2025-01-21, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250122"
+End Date:,="20250128"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-01-22,2025-01-28,Account Level Statements,APP,1. less than 5 secs,502,9%,4,5,5,
+2025-01-22,2025-01-28,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-01-22,2025-01-28,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-01-22,2025-01-28,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-01-22,2025-01-28,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-01-22,2025-01-28,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-01-22,2025-01-28,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-01-22,2025-01-28,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-01-22,2025-01-28,Account Level Statements,APP,9. Over a minute,23,78%,91,134,168,
+2025-01-22,2025-01-28,Account Level Statements,Optima,9. Over a minute,23,0%,98,98,98,
+2025-01-22,2025-01-28, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250129"
+End Date:,="20250204"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-01-29,2025-02-04,Account Level Statements,APP,1. less than 5 secs,557,9%,4,5,5,
+2025-01-29,2025-02-04,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-01-29,2025-02-04,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-01-29,2025-02-04,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-01-29,2025-02-04,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-01-29,2025-02-04,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-01-29,2025-02-04,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-01-29,2025-02-04,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-01-29,2025-02-04,Account Level Statements,APP,9. Over a minute,22,78%,91,134,168,
+2025-01-29,2025-02-04,Account Level Statements,Optima,9. Over a minute,29,0%,98,98,98,
+2025-01-29,2025-02-04, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250205"
+End Date:,="20250211"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-02-05,2025-02-11,Account Level Statements,APP,1. less than 5 secs,450,9%,4,5,5,
+2025-02-05,2025-02-11,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-02-05,2025-02-11,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-02-05,2025-02-11,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-02-05,2025-02-11,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-02-05,2025-02-11,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-02-05,2025-02-11,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-02-05,2025-02-11,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-02-05,2025-02-11,Account Level Statements,APP,9. Over a minute,11,78%,91,134,168,
+2025-02-05,2025-02-11,Account Level Statements,Optima,9. Over a minute,25,0%,98,98,98,
+2025-02-05,2025-02-11, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250212"
+End Date:,="20250218"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-02-12,2025-02-18,Account Level Statements,APP,1. less than 5 secs,501,9%,4,5,5,
+2025-02-12,2025-02-18,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-02-12,2025-02-18,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-02-12,2025-02-18,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-02-12,2025-02-18,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-02-12,2025-02-18,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-02-12,2025-02-18,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-02-12,2025-02-18,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-02-12,2025-02-18,Account Level Statements,APP,9. Over a minute,18,78%,91,134,168,
+2025-02-12,2025-02-18,Account Level Statements,Optima,9. Over a minute,14,0%,98,98,98,
+2025-02-12,2025-02-18, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250219"
+End Date:,="20250225"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-02-19,2025-02-25,Account Level Statements,APP,1. less than 5 secs,549,9%,4,5,5,
+2025-02-19,2025-02-25,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-02-19,2025-02-25,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-02-19,2025-02-25,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-02-19,2025-02-25,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-02-19,2025-02-25,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-02-19,2025-02-25,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-02-19,2025-02-25,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-02-19,2025-02-25,Account Level Statements,APP,9. Over a minute,24,78%,91,134,168,
+2025-02-19,2025-02-25,Account Level Statements,Optima,9. Over a minute,11,0%,98,98,98,
+2025-02-19,2025-02-25, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250226"
+End Date:,="20250304"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-02-26,2025-03-04,Account Level Statements,APP,1. less than 5 secs,441,9%,4,5,5,
+2025-02-26,2025-03-04,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-02-26,2025-03-04,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-02-26,2025-03-04,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-02-26,2025-03-04,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-02-26,2025-03-04,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-02-26,2025-03-04,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-02-26,2025-03-04,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-02-26,2025-03-04,Account Level Statements,APP,9. Over a minute,27,78%,91,134,168,
+2025-02-26,2025-03-04,Account Level Statements,Optima,9. Over a minute,23,0%,98,98,98,
+2025-02-26,2025-03-04, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250305"
+End Date:,="20250310"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-03-05,2025-03-10,Account Level Statements,APP,1. less than 5 secs,560,9%,4,5,5,
+2025-03-05,2025-03-10,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-03-05,2025-03-10,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-03-05,2025-03-10,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-03-05,2025-03-10,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-03-05,2025-03-10,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-03-05,2025-03-10,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-03-05,2025-03-10,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-03-05,2025-03-10,Account Level Statements,APP,9. Over a minute,19,78%,91,134,168,
+2025-03-05,2025-03-10,Account Level Statements,Optima,9. Over a minute,25,0%,98,98,98,
+2025-03-05,2025-03-10, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250311"
+End Date:,="20250317"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-03-11,2025-03-17,Account Level Statements,APP,1. less than 5 secs,420,9%,4,5,5,
+2025-03-11,2025-03-17,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-03-11,2025-03-17,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-03-11,2025-03-17,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-03-11,2025-03-17,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-03-11,2025-03-17,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-03-11,2025-03-17,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-03-11,2025-03-17,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-03-11,2025-03-17,Account Level Statements,APP,9. Over a minute,23,78%,91,134,168,
+2025-03-11,2025-03-17,Account Level Statements,Optima,9. Over a minute,29,0%,98,98,98,
+2025-03-11,2025-03-17, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250318"
+End Date:,="20250324"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-03-18,2025-03-24,Account Level Statements,APP,1. less than 5 secs,563,9%,4,5,5,
+2025-03-18,2025-03-24,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-03-18,2025-03-24,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-03-18,2025-03-24,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-03-18,2025-03-24,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-03-18,2025-03-24,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-03-18,2025-03-24,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-03-18,2025-03-24,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-03-18,2025-03-24,Account Level Statements,APP,9. Over a minute,18,78%,91,134,168,
+2025-03-18,2025-03-24,Account Level Statements,Optima,9. Over a minute,14,0%,98,98,98,
+2025-03-18,2025-03-24, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250325"
+End Date:,="20250331"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-03-25,2025-03-31,Account Level Statements,APP,1. less than 5 secs,494,9%,4,5,5,
+2025-03-25,2025-03-31,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-03-25,2025-03-31,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-03-25,2025-03-31,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-03-25,2025-03-31,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-03-25,2025-03-31,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-03-25,2025-03-31,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-03-25,2025-03-31,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-03-25,2025-03-31,Account Level Statements,APP,9. Over a minute,24,78%,91,134,168,
+2025-03-25,2025-03-31,Account Level Statements,Optima,9. Over a minute,11,0%,98,98,98,
+2025-03-25,2025-03-31, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250401"
+End Date:,="20250407"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-04-01,2025-04-07,Account Level Statements,APP,1. less than 5 secs,456,9%,4,5,5,
+2025-04-01,2025-04-07,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-04-01,2025-04-07,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-04-01,2025-04-07,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-04-01,2025-04-07,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-04-01,2025-04-07,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-04-01,2025-04-07,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-04-01,2025-04-07,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-04-01,2025-04-07,Account Level Statements,APP,9. Over a minute,22,78%,91,134,168,
+2025-04-01,2025-04-07,Account Level Statements,Optima,9. Over a minute,12,0%,98,98,98,
+2025-04-01,2025-04-07, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250408"
+End Date:,="20250414"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-04-08,2025-04-14,Account Level Statements,APP,1. less than 5 secs,531,9%,4,5,5,
+2025-04-08,2025-04-14,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-04-08,2025-04-14,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-04-08,2025-04-14,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-04-08,2025-04-14,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-04-08,2025-04-14,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-04-08,2025-04-14,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-04-08,2025-04-14,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-04-08,2025-04-14,Account Level Statements,APP,9. Over a minute,14,78%,91,134,168,
+2025-04-08,2025-04-14,Account Level Statements,Optima,9. Over a minute,11,0%,98,98,98,
+2025-04-08,2025-04-14, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250415"
+End Date:,="20250421"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-04-15,2025-04-21,Account Level Statements,APP,1. less than 5 secs,513,9%,4,5,5,
+2025-04-15,2025-04-21,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-04-15,2025-04-21,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-04-15,2025-04-21,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-04-15,2025-04-21,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-04-15,2025-04-21,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-04-15,2025-04-21,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-04-15,2025-04-21,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-04-15,2025-04-21,Account Level Statements,APP,9. Over a minute,11,78%,91,134,168,
+2025-04-15,2025-04-21,Account Level Statements,Optima,9. Over a minute,25,0%,98,98,98,
+2025-04-15,2025-04-21, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250422"
+End Date:,="20250428"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-04-22,2025-04-28,Account Level Statements,APP,1. less than 5 secs,456,9%,4,5,5,
+2025-04-22,2025-04-28,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-04-22,2025-04-28,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-04-22,2025-04-28,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-04-22,2025-04-28,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-04-22,2025-04-28,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-04-22,2025-04-28,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-04-22,2025-04-28,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-04-22,2025-04-28,Account Level Statements,APP,9. Over a minute,26,78%,91,134,168,
+2025-04-22,2025-04-28,Account Level Statements,Optima,9. Over a minute,22,0%,98,98,98,
+2025-04-22,2025-04-28, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250429"
+End Date:,="20250505"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-04-29,2025-05-05,Account Level Statements,APP,1. less than 5 secs,585,9%,4,5,5,
+2025-04-29,2025-05-05,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-04-29,2025-05-05,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-04-29,2025-05-05,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-04-29,2025-05-05,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-04-29,2025-05-05,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-04-29,2025-05-05,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-04-29,2025-05-05,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-04-29,2025-05-05,Account Level Statements,APP,9. Over a minute,23,78%,91,134,168,
+2025-04-29,2025-05-05,Account Level Statements,Optima,9. Over a minute,25,0%,98,98,98,
+2025-04-29,2025-05-05, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250506"
+End Date:,="20250512"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-05-06,2025-05-12,Account Level Statements,APP,1. less than 5 secs,424,9%,4,5,5,
+2025-05-06,2025-05-12,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-05-06,2025-05-12,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-05-06,2025-05-12,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-05-06,2025-05-12,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-05-06,2025-05-12,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-05-06,2025-05-12,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-05-06,2025-05-12,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-05-06,2025-05-12,Account Level Statements,APP,9. Over a minute,10,78%,91,134,168,
+2025-05-06,2025-05-12,Account Level Statements,Optima,9. Over a minute,10,0%,98,98,98,
+2025-05-06,2025-05-12, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250513"
+End Date:,="20250519"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-05-13,2025-05-19,Account Level Statements,APP,1. less than 5 secs,444,9%,4,5,5,
+2025-05-13,2025-05-19,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-05-13,2025-05-19,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-05-13,2025-05-19,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-05-13,2025-05-19,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-05-13,2025-05-19,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-05-13,2025-05-19,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-05-13,2025-05-19,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-05-13,2025-05-19,Account Level Statements,APP,9. Over a minute,23,78%,91,134,168,
+2025-05-13,2025-05-19,Account Level Statements,Optima,9. Over a minute,27,0%,98,98,98,
+2025-05-13,2025-05-19, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250520"
+End Date:,="20250526"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-05-20,2025-05-26,Account Level Statements,APP,1. less than 5 secs,480,9%,4,5,5,
+2025-05-20,2025-05-26,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-05-20,2025-05-26,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-05-20,2025-05-26,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-05-20,2025-05-26,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-05-20,2025-05-26,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-05-20,2025-05-26,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-05-20,2025-05-26,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-05-20,2025-05-26,Account Level Statements,APP,9. Over a minute,10,78%,91,134,168,
+2025-05-20,2025-05-26,Account Level Statements,Optima,9. Over a minute,10,0%,98,98,98,
+2025-05-20,2025-05-26, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250527"
+End Date:,="20250602"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-05-27,2025-06-02,Account Level Statements,APP,1. less than 5 secs,441,9%,4,5,5,
+2025-05-27,2025-06-02,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-05-27,2025-06-02,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-05-27,2025-06-02,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-05-27,2025-06-02,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-05-27,2025-06-02,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-05-27,2025-06-02,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-05-27,2025-06-02,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-05-27,2025-06-02,Account Level Statements,APP,9. Over a minute,25,78%,91,134,168,
+2025-05-27,2025-06-02,Account Level Statements,Optima,9. Over a minute,24,0%,98,98,98,
+2025-05-27,2025-06-02, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250603"
+End Date:,="20250609"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-06-03,2025-06-09,Account Level Statements,APP,1. less than 5 secs,437,9%,4,5,5,
+2025-06-03,2025-06-09,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-06-03,2025-06-09,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-06-03,2025-06-09,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-06-03,2025-06-09,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-06-03,2025-06-09,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-06-03,2025-06-09,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-06-03,2025-06-09,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-06-03,2025-06-09,Account Level Statements,APP,9. Over a minute,23,78%,91,134,168,
+2025-06-03,2025-06-09,Account Level Statements,Optima,9. Over a minute,22,0%,98,98,98,
+2025-06-03,2025-06-09, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250610"
+End Date:,="20250616"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-06-10,2025-06-16,Account Level Statements,APP,1. less than 5 secs,461,9%,4,5,5,
+2025-06-10,2025-06-16,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-06-10,2025-06-16,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-06-10,2025-06-16,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-06-10,2025-06-16,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-06-10,2025-06-16,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-06-10,2025-06-16,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-06-10,2025-06-16,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-06-10,2025-06-16,Account Level Statements,APP,9. Over a minute,15,78%,91,134,168,
+2025-06-10,2025-06-16,Account Level Statements,Optima,9. Over a minute,26,0%,98,98,98,
+2025-06-10,2025-06-16, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250617"
+End Date:,="20250623"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-06-17,2025-06-23,Account Level Statements,APP,1. less than 5 secs,403,9%,4,5,5,
+2025-06-17,2025-06-23,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-06-17,2025-06-23,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-06-17,2025-06-23,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-06-17,2025-06-23,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-06-17,2025-06-23,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-06-17,2025-06-23,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-06-17,2025-06-23,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-06-17,2025-06-23,Account Level Statements,APP,9. Over a minute,29,78%,91,134,168,
+2025-06-17,2025-06-23,Account Level Statements,Optima,9. Over a minute,11,0%,98,98,98,
+2025-06-17,2025-06-23, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250624"
+End Date:,="20250630"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-06-24,2025-06-30,Account Level Statements,APP,1. less than 5 secs,431,9%,4,5,5,
+2025-06-24,2025-06-30,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-06-24,2025-06-30,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-06-24,2025-06-30,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-06-24,2025-06-30,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-06-24,2025-06-30,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-06-24,2025-06-30,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-06-24,2025-06-30,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-06-24,2025-06-30,Account Level Statements,APP,9. Over a minute,18,78%,91,134,168,
+2025-06-24,2025-06-30,Account Level Statements,Optima,9. Over a minute,26,0%,98,98,98,
+2025-06-24,2025-06-30, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250701"
+End Date:,="20250707"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-07-01,2025-07-07,Account Level Statements,APP,1. less than 5 secs,460,9%,4,5,5,
+2025-07-01,2025-07-07,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-07-01,2025-07-07,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-07-01,2025-07-07,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-07-01,2025-07-07,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-07-01,2025-07-07,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-07-01,2025-07-07,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-07-01,2025-07-07,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-07-01,2025-07-07,Account Level Statements,APP,9. Over a minute,28,78%,91,134,168,
+2025-07-01,2025-07-07,Account Level Statements,Optima,9. Over a minute,23,0%,98,98,98,
+2025-07-01,2025-07-07, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250708"
+End Date:,="20250714"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-07-08,2025-07-14,Account Level Statements,APP,1. less than 5 secs,478,9%,4,5,5,
+2025-07-08,2025-07-14,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-07-08,2025-07-14,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-07-08,2025-07-14,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-07-08,2025-07-14,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-07-08,2025-07-14,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-07-08,2025-07-14,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-07-08,2025-07-14,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-07-08,2025-07-14,Account Level Statements,APP,9. Over a minute,10,78%,91,134,168,
+2025-07-08,2025-07-14,Account Level Statements,Optima,9. Over a minute,24,0%,98,98,98,
+2025-07-08,2025-07-14, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250715"
+End Date:,="20250721"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-07-15,2025-07-21,Account Level Statements,APP,1. less than 5 secs,446,9%,4,5,5,
+2025-07-15,2025-07-21,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-07-15,2025-07-21,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-07-15,2025-07-21,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-07-15,2025-07-21,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-07-15,2025-07-21,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-07-15,2025-07-21,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-07-15,2025-07-21,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-07-15,2025-07-21,Account Level Statements,APP,9. Over a minute,19,78%,91,134,168,
+2025-07-15,2025-07-21,Account Level Statements,Optima,9. Over a minute,20,0%,98,98,98,
+2025-07-15,2025-07-21, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250722"
+End Date:,="20250728"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-07-22,2025-07-28,Account Level Statements,APP,1. less than 5 secs,501,9%,4,5,5,
+2025-07-22,2025-07-28,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-07-22,2025-07-28,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-07-22,2025-07-28,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-07-22,2025-07-28,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-07-22,2025-07-28,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-07-22,2025-07-28,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-07-22,2025-07-28,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-07-22,2025-07-28,Account Level Statements,APP,9. Over a minute,23,78%,91,134,168,
+2025-07-22,2025-07-28,Account Level Statements,Optima,9. Over a minute,10,0%,98,98,98,
+2025-07-22,2025-07-28, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250729"
+End Date:,="20250804"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-07-29,2025-08-04,Account Level Statements,APP,1. less than 5 secs,484,9%,4,5,5,
+2025-07-29,2025-08-04,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-07-29,2025-08-04,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-07-29,2025-08-04,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-07-29,2025-08-04,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-07-29,2025-08-04,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-07-29,2025-08-04,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-07-29,2025-08-04,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-07-29,2025-08-04,Account Level Statements,APP,9. Over a minute,28,78%,91,134,168,
+2025-07-29,2025-08-04,Account Level Statements,Optima,9. Over a minute,27,0%,98,98,98,
+2025-07-29,2025-08-04, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250805"
+End Date:,="20250811"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-08-05,2025-08-11,Account Level Statements,APP,1. less than 5 secs,555,9%,4,5,5,
+2025-08-05,2025-08-11,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-08-05,2025-08-11,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-08-05,2025-08-11,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-08-05,2025-08-11,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-08-05,2025-08-11,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-08-05,2025-08-11,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-08-05,2025-08-11,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-08-05,2025-08-11,Account Level Statements,APP,9. Over a minute,17,78%,91,134,168,
+2025-08-05,2025-08-11,Account Level Statements,Optima,9. Over a minute,28,0%,98,98,98,
+2025-08-05,2025-08-11, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250812"
+End Date:,="20250818"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-08-12,2025-08-18,Account Level Statements,APP,1. less than 5 secs,558,9%,4,5,5,
+2025-08-12,2025-08-18,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-08-12,2025-08-18,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-08-12,2025-08-18,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-08-12,2025-08-18,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-08-12,2025-08-18,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-08-12,2025-08-18,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-08-12,2025-08-18,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-08-12,2025-08-18,Account Level Statements,APP,9. Over a minute,10,78%,91,134,168,
+2025-08-12,2025-08-18,Account Level Statements,Optima,9. Over a minute,24,0%,98,98,98,
+2025-08-12,2025-08-18, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250819"
+End Date:,="20250825"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-08-19,2025-08-25,Account Level Statements,APP,1. less than 5 secs,491,9%,4,5,5,
+2025-08-19,2025-08-25,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-08-19,2025-08-25,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-08-19,2025-08-25,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-08-19,2025-08-25,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-08-19,2025-08-25,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-08-19,2025-08-25,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-08-19,2025-08-25,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-08-19,2025-08-25,Account Level Statements,APP,9. Over a minute,25,78%,91,134,168,
+2025-08-19,2025-08-25,Account Level Statements,Optima,9. Over a minute,17,0%,98,98,98,
+2025-08-19,2025-08-25, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250826"
+End Date:,="20250901"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-08-26,2025-09-01,Account Level Statements,APP,1. less than 5 secs,520,9%,4,5,5,
+2025-08-26,2025-09-01,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-08-26,2025-09-01,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-08-26,2025-09-01,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-08-26,2025-09-01,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-08-26,2025-09-01,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-08-26,2025-09-01,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-08-26,2025-09-01,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-08-26,2025-09-01,Account Level Statements,APP,9. Over a minute,10,78%,91,134,168,
+2025-08-26,2025-09-01,Account Level Statements,Optima,9. Over a minute,16,0%,98,98,98,
+2025-08-26,2025-09-01, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250902"
+End Date:,="20250908"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-09-02,2025-09-08,Account Level Statements,APP,1. less than 5 secs,516,9%,4,5,5,
+2025-09-02,2025-09-08,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-09-02,2025-09-08,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-09-02,2025-09-08,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-09-02,2025-09-08,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-09-02,2025-09-08,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-09-02,2025-09-08,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-09-02,2025-09-08,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-09-02,2025-09-08,Account Level Statements,APP,9. Over a minute,17,78%,91,134,168,
+2025-09-02,2025-09-08,Account Level Statements,Optima,9. Over a minute,20,0%,98,98,98,
+2025-09-02,2025-09-08, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250909"
+End Date:,="20250915"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-09-09,2025-09-15,Account Level Statements,APP,1. less than 5 secs,439,9%,4,5,5,
+2025-09-09,2025-09-15,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-09-09,2025-09-15,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-09-09,2025-09-15,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-09-09,2025-09-15,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-09-09,2025-09-15,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-09-09,2025-09-15,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-09-09,2025-09-15,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-09-09,2025-09-15,Account Level Statements,APP,9. Over a minute,13,78%,91,134,168,
+2025-09-09,2025-09-15,Account Level Statements,Optima,9. Over a minute,28,0%,98,98,98,
+2025-09-09,2025-09-15, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250916"
+End Date:,="20250922"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-09-16,2025-09-22,Account Level Statements,APP,1. less than 5 secs,410,9%,4,5,5,
+2025-09-16,2025-09-22,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-09-16,2025-09-22,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-09-16,2025-09-22,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-09-16,2025-09-22,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-09-16,2025-09-22,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-09-16,2025-09-22,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-09-16,2025-09-22,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-09-16,2025-09-22,Account Level Statements,APP,9. Over a minute,28,78%,91,134,168,
+2025-09-16,2025-09-22,Account Level Statements,Optima,9. Over a minute,12,0%,98,98,98,
+2025-09-16,2025-09-22, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250923"
+End Date:,="20250929"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-09-23,2025-09-29,Account Level Statements,APP,1. less than 5 secs,569,9%,4,5,5,
+2025-09-23,2025-09-29,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-09-23,2025-09-29,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-09-23,2025-09-29,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-09-23,2025-09-29,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-09-23,2025-09-29,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-09-23,2025-09-29,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-09-23,2025-09-29,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-09-23,2025-09-29,Account Level Statements,APP,9. Over a minute,10,78%,91,134,168,
+2025-09-23,2025-09-29,Account Level Statements,Optima,9. Over a minute,20,0%,98,98,98,
+2025-09-23,2025-09-29, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250930"
+End Date:,="20251006"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-09-30,2025-10-06,Account Level Statements,APP,1. less than 5 secs,446,9%,4,5,5,
+2025-09-30,2025-10-06,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-09-30,2025-10-06,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-09-30,2025-10-06,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-09-30,2025-10-06,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-09-30,2025-10-06,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-09-30,2025-10-06,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-09-30,2025-10-06,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-09-30,2025-10-06,Account Level Statements,APP,9. Over a minute,28,78%,91,134,168,
+2025-09-30,2025-10-06,Account Level Statements,Optima,9. Over a minute,29,0%,98,98,98,
+2025-09-30,2025-10-06, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251007"
+End Date:,="20251013"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-10-07,2025-10-13,Account Level Statements,APP,1. less than 5 secs,453,9%,4,5,5,
+2025-10-07,2025-10-13,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-10-07,2025-10-13,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-10-07,2025-10-13,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-10-07,2025-10-13,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-10-07,2025-10-13,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-10-07,2025-10-13,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-10-07,2025-10-13,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-10-07,2025-10-13,Account Level Statements,APP,9. Over a minute,12,78%,91,134,168,
+2025-10-07,2025-10-13,Account Level Statements,Optima,9. Over a minute,28,0%,98,98,98,
+2025-10-07,2025-10-13, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251014"
+End Date:,="20251020"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-10-14,2025-10-20,Account Level Statements,APP,1. less than 5 secs,402,9%,4,5,5,
+2025-10-14,2025-10-20,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-10-14,2025-10-20,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-10-14,2025-10-20,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-10-14,2025-10-20,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-10-14,2025-10-20,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-10-14,2025-10-20,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-10-14,2025-10-20,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-10-14,2025-10-20,Account Level Statements,APP,9. Over a minute,24,78%,91,134,168,
+2025-10-14,2025-10-20,Account Level Statements,Optima,9. Over a minute,19,0%,98,98,98,
+2025-10-14,2025-10-20, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251021"
+End Date:,="20251027"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-10-21,2025-10-27,Account Level Statements,APP,1. less than 5 secs,420,9%,4,5,5,
+2025-10-21,2025-10-27,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-10-21,2025-10-27,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-10-21,2025-10-27,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-10-21,2025-10-27,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-10-21,2025-10-27,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-10-21,2025-10-27,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-10-21,2025-10-27,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-10-21,2025-10-27,Account Level Statements,APP,9. Over a minute,22,78%,91,134,168,
+2025-10-21,2025-10-27,Account Level Statements,Optima,9. Over a minute,18,0%,98,98,98,
+2025-10-21,2025-10-27, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251028"
+End Date:,="20251104"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-10-28,2025-11-04,Account Level Statements,APP,1. less than 5 secs,504,9%,4,5,5,
+2025-10-28,2025-11-04,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-10-28,2025-11-04,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-10-28,2025-11-04,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-10-28,2025-11-04,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-10-28,2025-11-04,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-10-28,2025-11-04,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-10-28,2025-11-04,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-10-28,2025-11-04,Account Level Statements,APP,9. Over a minute,21,78%,91,134,168,
+2025-10-28,2025-11-04,Account Level Statements,Optima,9. Over a minute,23,0%,98,98,98,
+2025-10-28,2025-11-04, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251105"
+End Date:,="20251111"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-11-05,2025-11-11,Account Level Statements,APP,1. less than 5 secs,449,9%,4,5,5,
+2025-11-05,2025-11-11,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-11-05,2025-11-11,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-11-05,2025-11-11,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-11-05,2025-11-11,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-11-05,2025-11-11,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-11-05,2025-11-11,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-11-05,2025-11-11,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-11-05,2025-11-11,Account Level Statements,APP,9. Over a minute,15,78%,91,134,168,
+2025-11-05,2025-11-11,Account Level Statements,Optima,9. Over a minute,26,0%,98,98,98,
+2025-11-05,2025-11-11, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251112"
+End Date:,="20251118"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-11-12,2025-11-18,Account Level Statements,APP,1. less than 5 secs,597,9%,4,5,5,
+2025-11-12,2025-11-18,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-11-12,2025-11-18,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-11-12,2025-11-18,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-11-12,2025-11-18,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-11-12,2025-11-18,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-11-12,2025-11-18,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-11-12,2025-11-18,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-11-12,2025-11-18,Account Level Statements,APP,9. Over a minute,20,78%,91,134,168,
+2025-11-12,2025-11-18,Account Level Statements,Optima,9. Over a minute,23,0%,98,98,98,
+2025-11-12,2025-11-18, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251119"
+End Date:,="20251125"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-11-19,2025-11-25,Account Level Statements,APP,1. less than 5 secs,496,9%,4,5,5,
+2025-11-19,2025-11-25,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-11-19,2025-11-25,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-11-19,2025-11-25,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-11-19,2025-11-25,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-11-19,2025-11-25,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-11-19,2025-11-25,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-11-19,2025-11-25,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-11-19,2025-11-25,Account Level Statements,APP,9. Over a minute,12,78%,91,134,168,
+2025-11-19,2025-11-25,Account Level Statements,Optima,9. Over a minute,25,0%,98,98,98,
+2025-11-19,2025-11-25, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251126"
+End Date:,="20251202"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-11-26,2025-12-02,Account Level Statements,APP,1. less than 5 secs,598,9%,4,5,5,
+2025-11-26,2025-12-02,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-11-26,2025-12-02,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-11-26,2025-12-02,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-11-26,2025-12-02,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-11-26,2025-12-02,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-11-26,2025-12-02,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-11-26,2025-12-02,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-11-26,2025-12-02,Account Level Statements,APP,9. Over a minute,26,78%,91,134,168,
+2025-11-26,2025-12-02,Account Level Statements,Optima,9. Over a minute,26,0%,98,98,98,
+2025-11-26,2025-12-02, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251203"
+End Date:,="20251209"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-12-03,2025-12-09,Account Level Statements,APP,1. less than 5 secs,406,9%,4,5,5,
+2025-12-03,2025-12-09,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-12-03,2025-12-09,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-12-03,2025-12-09,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-12-03,2025-12-09,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-12-03,2025-12-09,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-12-03,2025-12-09,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-12-03,2025-12-09,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-12-03,2025-12-09,Account Level Statements,APP,9. Over a minute,26,78%,91,134,168,
+2025-12-03,2025-12-09,Account Level Statements,Optima,9. Over a minute,16,0%,98,98,98,
+2025-12-03,2025-12-09, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251210"
+End Date:,="20251216"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-12-10,2025-12-16,Account Level Statements,APP,1. less than 5 secs,544,9%,4,5,5,
+2025-12-10,2025-12-16,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-12-10,2025-12-16,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-12-10,2025-12-16,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-12-10,2025-12-16,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-12-10,2025-12-16,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-12-10,2025-12-16,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-12-10,2025-12-16,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-12-10,2025-12-16,Account Level Statements,APP,9. Over a minute,21,78%,91,134,168,
+2025-12-10,2025-12-16,Account Level Statements,Optima,9. Over a minute,29,0%,98,98,98,
+2025-12-10,2025-12-16, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251217"
+End Date:,="20251223"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-12-17,2025-12-23,Account Level Statements,APP,1. less than 5 secs,464,9%,4,5,5,
+2025-12-17,2025-12-23,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-12-17,2025-12-23,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-12-17,2025-12-23,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-12-17,2025-12-23,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-12-17,2025-12-23,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-12-17,2025-12-23,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-12-17,2025-12-23,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-12-17,2025-12-23,Account Level Statements,APP,9. Over a minute,28,78%,91,134,168,
+2025-12-17,2025-12-23,Account Level Statements,Optima,9. Over a minute,19,0%,98,98,98,
+2025-12-17,2025-12-23, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251224"
+End Date:,="20251230"
+Statement Type:,"Account"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-12-24,2025-12-30,Account Level Statements,APP,1. less than 5 secs,461,9%,4,5,5,
+2025-12-24,2025-12-30,Account Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-12-24,2025-12-30,Account Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-12-24,2025-12-30,Account Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-12-24,2025-12-30,Account Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-12-24,2025-12-30,Account Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-12-24,2025-12-30,Account Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-12-24,2025-12-30,Account Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-12-24,2025-12-30,Account Level Statements,APP,9. Over a minute,26,78%,91,134,168,
+2025-12-24,2025-12-30,Account Level Statements,Optima,9. Over a minute,16,0%,98,98,98,
+2025-12-24,2025-12-30, , ,Total Requests:,353,100%,,,,
+
+

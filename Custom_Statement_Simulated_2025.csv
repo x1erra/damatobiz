@@ -1,0 +1,1092 @@
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250101"
+End Date:,="20250107"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-01-01,2025-01-07,IP-Level Statements,APP,1. less than 5 secs,181,9%,4,5,5,
+2025-01-01,2025-01-07,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-01-01,2025-01-07,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-01-01,2025-01-07,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-01-01,2025-01-07,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-01-01,2025-01-07,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-01-01,2025-01-07,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-01-01,2025-01-07,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-01-01,2025-01-07,IP-Level Statements,APP,9. Over a minute,276,78%,91,134,168,
+2025-01-01,2025-01-07,IP-Level Statements,Optima,9. Over a minute,211,0%,98,98,98,
+2025-01-01,2025-01-07, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250108"
+End Date:,="20250114"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-01-08,2025-01-14,IP-Level Statements,APP,1. less than 5 secs,116,9%,4,5,5,
+2025-01-08,2025-01-14,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-01-08,2025-01-14,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-01-08,2025-01-14,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-01-08,2025-01-14,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-01-08,2025-01-14,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-01-08,2025-01-14,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-01-08,2025-01-14,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-01-08,2025-01-14,IP-Level Statements,APP,9. Over a minute,273,78%,91,134,168,
+2025-01-08,2025-01-14,IP-Level Statements,Optima,9. Over a minute,263,0%,98,98,98,
+2025-01-08,2025-01-14, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250115"
+End Date:,="20250121"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-01-15,2025-01-21,IP-Level Statements,APP,1. less than 5 secs,116,9%,4,5,5,
+2025-01-15,2025-01-21,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-01-15,2025-01-21,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-01-15,2025-01-21,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-01-15,2025-01-21,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-01-15,2025-01-21,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-01-15,2025-01-21,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-01-15,2025-01-21,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-01-15,2025-01-21,IP-Level Statements,APP,9. Over a minute,296,78%,91,134,168,
+2025-01-15,2025-01-21,IP-Level Statements,Optima,9. Over a minute,271,0%,98,98,98,
+2025-01-15,2025-01-21, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250122"
+End Date:,="20250128"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-01-22,2025-01-28,IP-Level Statements,APP,1. less than 5 secs,189,9%,4,5,5,
+2025-01-22,2025-01-28,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-01-22,2025-01-28,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-01-22,2025-01-28,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-01-22,2025-01-28,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-01-22,2025-01-28,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-01-22,2025-01-28,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-01-22,2025-01-28,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-01-22,2025-01-28,IP-Level Statements,APP,9. Over a minute,290,78%,91,134,168,
+2025-01-22,2025-01-28,IP-Level Statements,Optima,9. Over a minute,276,0%,98,98,98,
+2025-01-22,2025-01-28, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250129"
+End Date:,="20250204"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-01-29,2025-02-04,IP-Level Statements,APP,1. less than 5 secs,126,9%,4,5,5,
+2025-01-29,2025-02-04,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-01-29,2025-02-04,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-01-29,2025-02-04,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-01-29,2025-02-04,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-01-29,2025-02-04,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-01-29,2025-02-04,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-01-29,2025-02-04,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-01-29,2025-02-04,IP-Level Statements,APP,9. Over a minute,217,78%,91,134,168,
+2025-01-29,2025-02-04,IP-Level Statements,Optima,9. Over a minute,250,0%,98,98,98,
+2025-01-29,2025-02-04, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250205"
+End Date:,="20250211"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-02-05,2025-02-11,IP-Level Statements,APP,1. less than 5 secs,54,9%,4,5,5,
+2025-02-05,2025-02-11,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-02-05,2025-02-11,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-02-05,2025-02-11,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-02-05,2025-02-11,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-02-05,2025-02-11,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-02-05,2025-02-11,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-02-05,2025-02-11,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-02-05,2025-02-11,IP-Level Statements,APP,9. Over a minute,230,78%,91,134,168,
+2025-02-05,2025-02-11,IP-Level Statements,Optima,9. Over a minute,250,0%,98,98,98,
+2025-02-05,2025-02-11, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250212"
+End Date:,="20250218"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-02-12,2025-02-18,IP-Level Statements,APP,1. less than 5 secs,76,9%,4,5,5,
+2025-02-12,2025-02-18,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-02-12,2025-02-18,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-02-12,2025-02-18,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-02-12,2025-02-18,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-02-12,2025-02-18,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-02-12,2025-02-18,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-02-12,2025-02-18,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-02-12,2025-02-18,IP-Level Statements,APP,9. Over a minute,226,78%,91,134,168,
+2025-02-12,2025-02-18,IP-Level Statements,Optima,9. Over a minute,271,0%,98,98,98,
+2025-02-12,2025-02-18, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250219"
+End Date:,="20250225"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-02-19,2025-02-25,IP-Level Statements,APP,1. less than 5 secs,188,9%,4,5,5,
+2025-02-19,2025-02-25,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-02-19,2025-02-25,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-02-19,2025-02-25,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-02-19,2025-02-25,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-02-19,2025-02-25,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-02-19,2025-02-25,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-02-19,2025-02-25,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-02-19,2025-02-25,IP-Level Statements,APP,9. Over a minute,264,78%,91,134,168,
+2025-02-19,2025-02-25,IP-Level Statements,Optima,9. Over a minute,279,0%,98,98,98,
+2025-02-19,2025-02-25, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250226"
+End Date:,="20250304"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-02-26,2025-03-04,IP-Level Statements,APP,1. less than 5 secs,199,9%,4,5,5,
+2025-02-26,2025-03-04,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-02-26,2025-03-04,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-02-26,2025-03-04,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-02-26,2025-03-04,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-02-26,2025-03-04,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-02-26,2025-03-04,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-02-26,2025-03-04,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-02-26,2025-03-04,IP-Level Statements,APP,9. Over a minute,269,78%,91,134,168,
+2025-02-26,2025-03-04,IP-Level Statements,Optima,9. Over a minute,215,0%,98,98,98,
+2025-02-26,2025-03-04, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250305"
+End Date:,="20250310"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-03-05,2025-03-10,IP-Level Statements,APP,1. less than 5 secs,133,9%,4,5,5,
+2025-03-05,2025-03-10,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-03-05,2025-03-10,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-03-05,2025-03-10,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-03-05,2025-03-10,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-03-05,2025-03-10,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-03-05,2025-03-10,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-03-05,2025-03-10,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-03-05,2025-03-10,IP-Level Statements,APP,9. Over a minute,276,78%,91,134,168,
+2025-03-05,2025-03-10,IP-Level Statements,Optima,9. Over a minute,277,0%,98,98,98,
+2025-03-05,2025-03-10, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250311"
+End Date:,="20250317"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-03-11,2025-03-17,IP-Level Statements,APP,1. less than 5 secs,131,9%,4,5,5,
+2025-03-11,2025-03-17,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-03-11,2025-03-17,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-03-11,2025-03-17,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-03-11,2025-03-17,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-03-11,2025-03-17,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-03-11,2025-03-17,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-03-11,2025-03-17,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-03-11,2025-03-17,IP-Level Statements,APP,9. Over a minute,226,78%,91,134,168,
+2025-03-11,2025-03-17,IP-Level Statements,Optima,9. Over a minute,260,0%,98,98,98,
+2025-03-11,2025-03-17, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250318"
+End Date:,="20250324"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-03-18,2025-03-24,IP-Level Statements,APP,1. less than 5 secs,74,9%,4,5,5,
+2025-03-18,2025-03-24,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-03-18,2025-03-24,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-03-18,2025-03-24,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-03-18,2025-03-24,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-03-18,2025-03-24,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-03-18,2025-03-24,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-03-18,2025-03-24,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-03-18,2025-03-24,IP-Level Statements,APP,9. Over a minute,276,78%,91,134,168,
+2025-03-18,2025-03-24,IP-Level Statements,Optima,9. Over a minute,248,0%,98,98,98,
+2025-03-18,2025-03-24, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250325"
+End Date:,="20250331"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-03-25,2025-03-31,IP-Level Statements,APP,1. less than 5 secs,72,9%,4,5,5,
+2025-03-25,2025-03-31,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-03-25,2025-03-31,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-03-25,2025-03-31,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-03-25,2025-03-31,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-03-25,2025-03-31,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-03-25,2025-03-31,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-03-25,2025-03-31,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-03-25,2025-03-31,IP-Level Statements,APP,9. Over a minute,296,78%,91,134,168,
+2025-03-25,2025-03-31,IP-Level Statements,Optima,9. Over a minute,211,0%,98,98,98,
+2025-03-25,2025-03-31, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250401"
+End Date:,="20250407"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-04-01,2025-04-07,IP-Level Statements,APP,1. less than 5 secs,59,9%,4,5,5,
+2025-04-01,2025-04-07,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-04-01,2025-04-07,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-04-01,2025-04-07,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-04-01,2025-04-07,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-04-01,2025-04-07,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-04-01,2025-04-07,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-04-01,2025-04-07,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-04-01,2025-04-07,IP-Level Statements,APP,9. Over a minute,289,78%,91,134,168,
+2025-04-01,2025-04-07,IP-Level Statements,Optima,9. Over a minute,294,0%,98,98,98,
+2025-04-01,2025-04-07, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250408"
+End Date:,="20250414"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-04-08,2025-04-14,IP-Level Statements,APP,1. less than 5 secs,165,9%,4,5,5,
+2025-04-08,2025-04-14,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-04-08,2025-04-14,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-04-08,2025-04-14,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-04-08,2025-04-14,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-04-08,2025-04-14,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-04-08,2025-04-14,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-04-08,2025-04-14,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-04-08,2025-04-14,IP-Level Statements,APP,9. Over a minute,246,78%,91,134,168,
+2025-04-08,2025-04-14,IP-Level Statements,Optima,9. Over a minute,210,0%,98,98,98,
+2025-04-08,2025-04-14, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250415"
+End Date:,="20250421"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-04-15,2025-04-21,IP-Level Statements,APP,1. less than 5 secs,116,9%,4,5,5,
+2025-04-15,2025-04-21,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-04-15,2025-04-21,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-04-15,2025-04-21,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-04-15,2025-04-21,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-04-15,2025-04-21,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-04-15,2025-04-21,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-04-15,2025-04-21,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-04-15,2025-04-21,IP-Level Statements,APP,9. Over a minute,289,78%,91,134,168,
+2025-04-15,2025-04-21,IP-Level Statements,Optima,9. Over a minute,272,0%,98,98,98,
+2025-04-15,2025-04-21, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250422"
+End Date:,="20250428"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-04-22,2025-04-28,IP-Level Statements,APP,1. less than 5 secs,133,9%,4,5,5,
+2025-04-22,2025-04-28,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-04-22,2025-04-28,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-04-22,2025-04-28,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-04-22,2025-04-28,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-04-22,2025-04-28,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-04-22,2025-04-28,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-04-22,2025-04-28,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-04-22,2025-04-28,IP-Level Statements,APP,9. Over a minute,256,78%,91,134,168,
+2025-04-22,2025-04-28,IP-Level Statements,Optima,9. Over a minute,231,0%,98,98,98,
+2025-04-22,2025-04-28, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250429"
+End Date:,="20250505"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-04-29,2025-05-05,IP-Level Statements,APP,1. less than 5 secs,169,9%,4,5,5,
+2025-04-29,2025-05-05,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-04-29,2025-05-05,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-04-29,2025-05-05,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-04-29,2025-05-05,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-04-29,2025-05-05,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-04-29,2025-05-05,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-04-29,2025-05-05,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-04-29,2025-05-05,IP-Level Statements,APP,9. Over a minute,290,78%,91,134,168,
+2025-04-29,2025-05-05,IP-Level Statements,Optima,9. Over a minute,271,0%,98,98,98,
+2025-04-29,2025-05-05, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250506"
+End Date:,="20250512"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-05-06,2025-05-12,IP-Level Statements,APP,1. less than 5 secs,83,9%,4,5,5,
+2025-05-06,2025-05-12,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-05-06,2025-05-12,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-05-06,2025-05-12,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-05-06,2025-05-12,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-05-06,2025-05-12,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-05-06,2025-05-12,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-05-06,2025-05-12,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-05-06,2025-05-12,IP-Level Statements,APP,9. Over a minute,288,78%,91,134,168,
+2025-05-06,2025-05-12,IP-Level Statements,Optima,9. Over a minute,220,0%,98,98,98,
+2025-05-06,2025-05-12, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250513"
+End Date:,="20250519"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-05-13,2025-05-19,IP-Level Statements,APP,1. less than 5 secs,105,9%,4,5,5,
+2025-05-13,2025-05-19,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-05-13,2025-05-19,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-05-13,2025-05-19,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-05-13,2025-05-19,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-05-13,2025-05-19,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-05-13,2025-05-19,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-05-13,2025-05-19,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-05-13,2025-05-19,IP-Level Statements,APP,9. Over a minute,293,78%,91,134,168,
+2025-05-13,2025-05-19,IP-Level Statements,Optima,9. Over a minute,296,0%,98,98,98,
+2025-05-13,2025-05-19, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250520"
+End Date:,="20250526"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-05-20,2025-05-26,IP-Level Statements,APP,1. less than 5 secs,53,9%,4,5,5,
+2025-05-20,2025-05-26,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-05-20,2025-05-26,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-05-20,2025-05-26,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-05-20,2025-05-26,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-05-20,2025-05-26,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-05-20,2025-05-26,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-05-20,2025-05-26,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-05-20,2025-05-26,IP-Level Statements,APP,9. Over a minute,269,78%,91,134,168,
+2025-05-20,2025-05-26,IP-Level Statements,Optima,9. Over a minute,286,0%,98,98,98,
+2025-05-20,2025-05-26, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250527"
+End Date:,="20250602"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-05-27,2025-06-02,IP-Level Statements,APP,1. less than 5 secs,112,9%,4,5,5,
+2025-05-27,2025-06-02,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-05-27,2025-06-02,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-05-27,2025-06-02,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-05-27,2025-06-02,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-05-27,2025-06-02,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-05-27,2025-06-02,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-05-27,2025-06-02,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-05-27,2025-06-02,IP-Level Statements,APP,9. Over a minute,216,78%,91,134,168,
+2025-05-27,2025-06-02,IP-Level Statements,Optima,9. Over a minute,251,0%,98,98,98,
+2025-05-27,2025-06-02, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250603"
+End Date:,="20250609"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-06-03,2025-06-09,IP-Level Statements,APP,1. less than 5 secs,138,9%,4,5,5,
+2025-06-03,2025-06-09,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-06-03,2025-06-09,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-06-03,2025-06-09,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-06-03,2025-06-09,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-06-03,2025-06-09,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-06-03,2025-06-09,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-06-03,2025-06-09,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-06-03,2025-06-09,IP-Level Statements,APP,9. Over a minute,277,78%,91,134,168,
+2025-06-03,2025-06-09,IP-Level Statements,Optima,9. Over a minute,249,0%,98,98,98,
+2025-06-03,2025-06-09, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250610"
+End Date:,="20250616"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-06-10,2025-06-16,IP-Level Statements,APP,1. less than 5 secs,158,9%,4,5,5,
+2025-06-10,2025-06-16,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-06-10,2025-06-16,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-06-10,2025-06-16,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-06-10,2025-06-16,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-06-10,2025-06-16,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-06-10,2025-06-16,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-06-10,2025-06-16,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-06-10,2025-06-16,IP-Level Statements,APP,9. Over a minute,288,78%,91,134,168,
+2025-06-10,2025-06-16,IP-Level Statements,Optima,9. Over a minute,220,0%,98,98,98,
+2025-06-10,2025-06-16, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250617"
+End Date:,="20250623"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-06-17,2025-06-23,IP-Level Statements,APP,1. less than 5 secs,148,9%,4,5,5,
+2025-06-17,2025-06-23,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-06-17,2025-06-23,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-06-17,2025-06-23,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-06-17,2025-06-23,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-06-17,2025-06-23,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-06-17,2025-06-23,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-06-17,2025-06-23,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-06-17,2025-06-23,IP-Level Statements,APP,9. Over a minute,216,78%,91,134,168,
+2025-06-17,2025-06-23,IP-Level Statements,Optima,9. Over a minute,215,0%,98,98,98,
+2025-06-17,2025-06-23, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250624"
+End Date:,="20250630"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-06-24,2025-06-30,IP-Level Statements,APP,1. less than 5 secs,156,9%,4,5,5,
+2025-06-24,2025-06-30,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-06-24,2025-06-30,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-06-24,2025-06-30,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-06-24,2025-06-30,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-06-24,2025-06-30,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-06-24,2025-06-30,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-06-24,2025-06-30,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-06-24,2025-06-30,IP-Level Statements,APP,9. Over a minute,272,78%,91,134,168,
+2025-06-24,2025-06-30,IP-Level Statements,Optima,9. Over a minute,271,0%,98,98,98,
+2025-06-24,2025-06-30, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250701"
+End Date:,="20250707"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-07-01,2025-07-07,IP-Level Statements,APP,1. less than 5 secs,135,9%,4,5,5,
+2025-07-01,2025-07-07,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-07-01,2025-07-07,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-07-01,2025-07-07,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-07-01,2025-07-07,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-07-01,2025-07-07,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-07-01,2025-07-07,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-07-01,2025-07-07,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-07-01,2025-07-07,IP-Level Statements,APP,9. Over a minute,213,78%,91,134,168,
+2025-07-01,2025-07-07,IP-Level Statements,Optima,9. Over a minute,200,0%,98,98,98,
+2025-07-01,2025-07-07, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250708"
+End Date:,="20250714"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-07-08,2025-07-14,IP-Level Statements,APP,1. less than 5 secs,183,9%,4,5,5,
+2025-07-08,2025-07-14,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-07-08,2025-07-14,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-07-08,2025-07-14,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-07-08,2025-07-14,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-07-08,2025-07-14,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-07-08,2025-07-14,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-07-08,2025-07-14,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-07-08,2025-07-14,IP-Level Statements,APP,9. Over a minute,218,78%,91,134,168,
+2025-07-08,2025-07-14,IP-Level Statements,Optima,9. Over a minute,238,0%,98,98,98,
+2025-07-08,2025-07-14, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250715"
+End Date:,="20250721"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-07-15,2025-07-21,IP-Level Statements,APP,1. less than 5 secs,144,9%,4,5,5,
+2025-07-15,2025-07-21,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-07-15,2025-07-21,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-07-15,2025-07-21,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-07-15,2025-07-21,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-07-15,2025-07-21,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-07-15,2025-07-21,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-07-15,2025-07-21,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-07-15,2025-07-21,IP-Level Statements,APP,9. Over a minute,244,78%,91,134,168,
+2025-07-15,2025-07-21,IP-Level Statements,Optima,9. Over a minute,295,0%,98,98,98,
+2025-07-15,2025-07-21, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250722"
+End Date:,="20250728"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-07-22,2025-07-28,IP-Level Statements,APP,1. less than 5 secs,183,9%,4,5,5,
+2025-07-22,2025-07-28,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-07-22,2025-07-28,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-07-22,2025-07-28,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-07-22,2025-07-28,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-07-22,2025-07-28,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-07-22,2025-07-28,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-07-22,2025-07-28,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-07-22,2025-07-28,IP-Level Statements,APP,9. Over a minute,228,78%,91,134,168,
+2025-07-22,2025-07-28,IP-Level Statements,Optima,9. Over a minute,287,0%,98,98,98,
+2025-07-22,2025-07-28, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250729"
+End Date:,="20250804"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-07-29,2025-08-04,IP-Level Statements,APP,1. less than 5 secs,183,9%,4,5,5,
+2025-07-29,2025-08-04,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-07-29,2025-08-04,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-07-29,2025-08-04,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-07-29,2025-08-04,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-07-29,2025-08-04,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-07-29,2025-08-04,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-07-29,2025-08-04,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-07-29,2025-08-04,IP-Level Statements,APP,9. Over a minute,259,78%,91,134,168,
+2025-07-29,2025-08-04,IP-Level Statements,Optima,9. Over a minute,209,0%,98,98,98,
+2025-07-29,2025-08-04, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250805"
+End Date:,="20250811"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-08-05,2025-08-11,IP-Level Statements,APP,1. less than 5 secs,140,9%,4,5,5,
+2025-08-05,2025-08-11,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-08-05,2025-08-11,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-08-05,2025-08-11,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-08-05,2025-08-11,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-08-05,2025-08-11,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-08-05,2025-08-11,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-08-05,2025-08-11,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-08-05,2025-08-11,IP-Level Statements,APP,9. Over a minute,260,78%,91,134,168,
+2025-08-05,2025-08-11,IP-Level Statements,Optima,9. Over a minute,256,0%,98,98,98,
+2025-08-05,2025-08-11, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250812"
+End Date:,="20250818"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-08-12,2025-08-18,IP-Level Statements,APP,1. less than 5 secs,98,9%,4,5,5,
+2025-08-12,2025-08-18,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-08-12,2025-08-18,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-08-12,2025-08-18,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-08-12,2025-08-18,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-08-12,2025-08-18,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-08-12,2025-08-18,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-08-12,2025-08-18,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-08-12,2025-08-18,IP-Level Statements,APP,9. Over a minute,277,78%,91,134,168,
+2025-08-12,2025-08-18,IP-Level Statements,Optima,9. Over a minute,244,0%,98,98,98,
+2025-08-12,2025-08-18, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250819"
+End Date:,="20250825"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-08-19,2025-08-25,IP-Level Statements,APP,1. less than 5 secs,118,9%,4,5,5,
+2025-08-19,2025-08-25,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-08-19,2025-08-25,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-08-19,2025-08-25,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-08-19,2025-08-25,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-08-19,2025-08-25,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-08-19,2025-08-25,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-08-19,2025-08-25,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-08-19,2025-08-25,IP-Level Statements,APP,9. Over a minute,270,78%,91,134,168,
+2025-08-19,2025-08-25,IP-Level Statements,Optima,9. Over a minute,251,0%,98,98,98,
+2025-08-19,2025-08-25, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250826"
+End Date:,="20250901"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-08-26,2025-09-01,IP-Level Statements,APP,1. less than 5 secs,107,9%,4,5,5,
+2025-08-26,2025-09-01,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-08-26,2025-09-01,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-08-26,2025-09-01,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-08-26,2025-09-01,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-08-26,2025-09-01,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-08-26,2025-09-01,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-08-26,2025-09-01,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-08-26,2025-09-01,IP-Level Statements,APP,9. Over a minute,224,78%,91,134,168,
+2025-08-26,2025-09-01,IP-Level Statements,Optima,9. Over a minute,251,0%,98,98,98,
+2025-08-26,2025-09-01, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250902"
+End Date:,="20250908"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-09-02,2025-09-08,IP-Level Statements,APP,1. less than 5 secs,187,9%,4,5,5,
+2025-09-02,2025-09-08,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-09-02,2025-09-08,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-09-02,2025-09-08,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-09-02,2025-09-08,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-09-02,2025-09-08,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-09-02,2025-09-08,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-09-02,2025-09-08,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-09-02,2025-09-08,IP-Level Statements,APP,9. Over a minute,212,78%,91,134,168,
+2025-09-02,2025-09-08,IP-Level Statements,Optima,9. Over a minute,214,0%,98,98,98,
+2025-09-02,2025-09-08, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250909"
+End Date:,="20250915"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-09-09,2025-09-15,IP-Level Statements,APP,1. less than 5 secs,136,9%,4,5,5,
+2025-09-09,2025-09-15,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-09-09,2025-09-15,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-09-09,2025-09-15,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-09-09,2025-09-15,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-09-09,2025-09-15,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-09-09,2025-09-15,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-09-09,2025-09-15,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-09-09,2025-09-15,IP-Level Statements,APP,9. Over a minute,200,78%,91,134,168,
+2025-09-09,2025-09-15,IP-Level Statements,Optima,9. Over a minute,299,0%,98,98,98,
+2025-09-09,2025-09-15, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250916"
+End Date:,="20250922"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-09-16,2025-09-22,IP-Level Statements,APP,1. less than 5 secs,146,9%,4,5,5,
+2025-09-16,2025-09-22,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-09-16,2025-09-22,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-09-16,2025-09-22,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-09-16,2025-09-22,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-09-16,2025-09-22,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-09-16,2025-09-22,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-09-16,2025-09-22,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-09-16,2025-09-22,IP-Level Statements,APP,9. Over a minute,217,78%,91,134,168,
+2025-09-16,2025-09-22,IP-Level Statements,Optima,9. Over a minute,233,0%,98,98,98,
+2025-09-16,2025-09-22, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250923"
+End Date:,="20250929"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-09-23,2025-09-29,IP-Level Statements,APP,1. less than 5 secs,87,9%,4,5,5,
+2025-09-23,2025-09-29,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-09-23,2025-09-29,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-09-23,2025-09-29,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-09-23,2025-09-29,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-09-23,2025-09-29,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-09-23,2025-09-29,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-09-23,2025-09-29,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-09-23,2025-09-29,IP-Level Statements,APP,9. Over a minute,293,78%,91,134,168,
+2025-09-23,2025-09-29,IP-Level Statements,Optima,9. Over a minute,264,0%,98,98,98,
+2025-09-23,2025-09-29, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20250930"
+End Date:,="20251006"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-09-30,2025-10-06,IP-Level Statements,APP,1. less than 5 secs,197,9%,4,5,5,
+2025-09-30,2025-10-06,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-09-30,2025-10-06,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-09-30,2025-10-06,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-09-30,2025-10-06,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-09-30,2025-10-06,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-09-30,2025-10-06,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-09-30,2025-10-06,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-09-30,2025-10-06,IP-Level Statements,APP,9. Over a minute,203,78%,91,134,168,
+2025-09-30,2025-10-06,IP-Level Statements,Optima,9. Over a minute,240,0%,98,98,98,
+2025-09-30,2025-10-06, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251007"
+End Date:,="20251013"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-10-07,2025-10-13,IP-Level Statements,APP,1. less than 5 secs,122,9%,4,5,5,
+2025-10-07,2025-10-13,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-10-07,2025-10-13,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-10-07,2025-10-13,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-10-07,2025-10-13,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-10-07,2025-10-13,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-10-07,2025-10-13,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-10-07,2025-10-13,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-10-07,2025-10-13,IP-Level Statements,APP,9. Over a minute,268,78%,91,134,168,
+2025-10-07,2025-10-13,IP-Level Statements,Optima,9. Over a minute,213,0%,98,98,98,
+2025-10-07,2025-10-13, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251014"
+End Date:,="20251020"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-10-14,2025-10-20,IP-Level Statements,APP,1. less than 5 secs,123,9%,4,5,5,
+2025-10-14,2025-10-20,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-10-14,2025-10-20,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-10-14,2025-10-20,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-10-14,2025-10-20,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-10-14,2025-10-20,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-10-14,2025-10-20,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-10-14,2025-10-20,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-10-14,2025-10-20,IP-Level Statements,APP,9. Over a minute,233,78%,91,134,168,
+2025-10-14,2025-10-20,IP-Level Statements,Optima,9. Over a minute,239,0%,98,98,98,
+2025-10-14,2025-10-20, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251021"
+End Date:,="20251027"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-10-21,2025-10-27,IP-Level Statements,APP,1. less than 5 secs,94,9%,4,5,5,
+2025-10-21,2025-10-27,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-10-21,2025-10-27,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-10-21,2025-10-27,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-10-21,2025-10-27,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-10-21,2025-10-27,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-10-21,2025-10-27,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-10-21,2025-10-27,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-10-21,2025-10-27,IP-Level Statements,APP,9. Over a minute,220,78%,91,134,168,
+2025-10-21,2025-10-27,IP-Level Statements,Optima,9. Over a minute,212,0%,98,98,98,
+2025-10-21,2025-10-27, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251028"
+End Date:,="20251104"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-10-28,2025-11-04,IP-Level Statements,APP,1. less than 5 secs,85,9%,4,5,5,
+2025-10-28,2025-11-04,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-10-28,2025-11-04,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-10-28,2025-11-04,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-10-28,2025-11-04,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-10-28,2025-11-04,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-10-28,2025-11-04,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-10-28,2025-11-04,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-10-28,2025-11-04,IP-Level Statements,APP,9. Over a minute,268,78%,91,134,168,
+2025-10-28,2025-11-04,IP-Level Statements,Optima,9. Over a minute,262,0%,98,98,98,
+2025-10-28,2025-11-04, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251105"
+End Date:,="20251111"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-11-05,2025-11-11,IP-Level Statements,APP,1. less than 5 secs,161,9%,4,5,5,
+2025-11-05,2025-11-11,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-11-05,2025-11-11,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-11-05,2025-11-11,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-11-05,2025-11-11,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-11-05,2025-11-11,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-11-05,2025-11-11,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-11-05,2025-11-11,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-11-05,2025-11-11,IP-Level Statements,APP,9. Over a minute,202,78%,91,134,168,
+2025-11-05,2025-11-11,IP-Level Statements,Optima,9. Over a minute,221,0%,98,98,98,
+2025-11-05,2025-11-11, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251112"
+End Date:,="20251118"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-11-12,2025-11-18,IP-Level Statements,APP,1. less than 5 secs,146,9%,4,5,5,
+2025-11-12,2025-11-18,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-11-12,2025-11-18,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-11-12,2025-11-18,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-11-12,2025-11-18,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-11-12,2025-11-18,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-11-12,2025-11-18,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-11-12,2025-11-18,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-11-12,2025-11-18,IP-Level Statements,APP,9. Over a minute,213,78%,91,134,168,
+2025-11-12,2025-11-18,IP-Level Statements,Optima,9. Over a minute,206,0%,98,98,98,
+2025-11-12,2025-11-18, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251119"
+End Date:,="20251125"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-11-19,2025-11-25,IP-Level Statements,APP,1. less than 5 secs,128,9%,4,5,5,
+2025-11-19,2025-11-25,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-11-19,2025-11-25,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-11-19,2025-11-25,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-11-19,2025-11-25,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-11-19,2025-11-25,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-11-19,2025-11-25,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-11-19,2025-11-25,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-11-19,2025-11-25,IP-Level Statements,APP,9. Over a minute,268,78%,91,134,168,
+2025-11-19,2025-11-25,IP-Level Statements,Optima,9. Over a minute,272,0%,98,98,98,
+2025-11-19,2025-11-25, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251126"
+End Date:,="20251202"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-11-26,2025-12-02,IP-Level Statements,APP,1. less than 5 secs,169,9%,4,5,5,
+2025-11-26,2025-12-02,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-11-26,2025-12-02,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-11-26,2025-12-02,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-11-26,2025-12-02,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-11-26,2025-12-02,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-11-26,2025-12-02,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-11-26,2025-12-02,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-11-26,2025-12-02,IP-Level Statements,APP,9. Over a minute,244,78%,91,134,168,
+2025-11-26,2025-12-02,IP-Level Statements,Optima,9. Over a minute,297,0%,98,98,98,
+2025-11-26,2025-12-02, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251203"
+End Date:,="20251209"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-12-03,2025-12-09,IP-Level Statements,APP,1. less than 5 secs,95,9%,4,5,5,
+2025-12-03,2025-12-09,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-12-03,2025-12-09,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-12-03,2025-12-09,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-12-03,2025-12-09,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-12-03,2025-12-09,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-12-03,2025-12-09,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-12-03,2025-12-09,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-12-03,2025-12-09,IP-Level Statements,APP,9. Over a minute,235,78%,91,134,168,
+2025-12-03,2025-12-09,IP-Level Statements,Optima,9. Over a minute,232,0%,98,98,98,
+2025-12-03,2025-12-09, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251210"
+End Date:,="20251216"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-12-10,2025-12-16,IP-Level Statements,APP,1. less than 5 secs,123,9%,4,5,5,
+2025-12-10,2025-12-16,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-12-10,2025-12-16,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-12-10,2025-12-16,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-12-10,2025-12-16,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-12-10,2025-12-16,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-12-10,2025-12-16,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-12-10,2025-12-16,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-12-10,2025-12-16,IP-Level Statements,APP,9. Over a minute,268,78%,91,134,168,
+2025-12-10,2025-12-16,IP-Level Statements,Optima,9. Over a minute,270,0%,98,98,98,
+2025-12-10,2025-12-16, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251217"
+End Date:,="20251223"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-12-17,2025-12-23,IP-Level Statements,APP,1. less than 5 secs,81,9%,4,5,5,
+2025-12-17,2025-12-23,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-12-17,2025-12-23,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-12-17,2025-12-23,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-12-17,2025-12-23,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-12-17,2025-12-23,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-12-17,2025-12-23,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-12-17,2025-12-23,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-12-17,2025-12-23,IP-Level Statements,APP,9. Over a minute,238,78%,91,134,168,
+2025-12-17,2025-12-23,IP-Level Statements,Optima,9. Over a minute,282,0%,98,98,98,
+2025-12-17,2025-12-23, , ,Total Requests:,353,100%,,,,
+
+
+Report Name:,Custom Statement Tool
+
+Start Date:,="20251224"
+End Date:,="20251230"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2025-12-24,2025-12-30,IP-Level Statements,APP,1. less than 5 secs,95,9%,4,5,5,
+2025-12-24,2025-12-30,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2025-12-24,2025-12-30,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2025-12-24,2025-12-30,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2025-12-24,2025-12-30,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2025-12-24,2025-12-30,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2025-12-24,2025-12-30,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2025-12-24,2025-12-30,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2025-12-24,2025-12-30,IP-Level Statements,APP,9. Over a minute,251,78%,91,134,168,
+2025-12-24,2025-12-30,IP-Level Statements,Optima,9. Over a minute,213,0%,98,98,98,
+2025-12-24,2025-12-30, , ,Total Requests:,353,100%,,,,
+
+

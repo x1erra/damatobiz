@@ -1,0 +1,19 @@
+Report Name:,Custom Statement Tool
+
+Start Date:,="20260101"
+End Date:,="20260107"
+Statement Type:,="IP"
+
+
+Star Date,End Date,Statement Type,Product Type,Duration,No_of_Requests,Percentage,Avg_LeadTime_In_Seconds,P90,P95,
+2026-01-01,2026-01-07,IP-Level Statements,APP,1. less than 5 secs,32,9%,4,5,5,
+2026-01-01,2026-01-07,IP-Level Statements,APP,2. less than 10 secs,21,5%,6,7,7,
+2026-01-01,2026-01-07,IP-Level Statements,APP,3. less than 15 secs,2,0%,11,12,12,
+2026-01-01,2026-01-07,IP-Level Statements,,4. less than 20 secs,0,0%,0,,,
+2026-01-01,2026-01-07,IP-Level Statements,,5. less than 25 secs,0,0%,0,,,
+2026-01-01,2026-01-07,IP-Level Statements,APP,6. less than 30 secs,4,1%,28,30,30,
+2026-01-01,2026-01-07,IP-Level Statements,APP,7. less than 45 secs,15,4%,39,42,44,
+2026-01-01,2026-01-07,IP-Level Statements,APP,8. less than 1 min,1,0%,52,52,52,
+2026-01-01,2026-01-07,IP-Level Statements,APP,9. Over a minute,277,78%,91,134,168,
+2026-01-01,2026-01-07,IP-Level Statements,Optima,9. Over a minute,1,0%,98,98,98,
+2026-01-01,2026-01-07, , ,Total Requests:,353,100%,,,,
