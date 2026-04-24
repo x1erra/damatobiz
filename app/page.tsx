@@ -92,9 +92,7 @@ export default function Home() {
             <span></span>
           </button>
           <ul ref={navRef} className="nav-links">
-            <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -102,20 +100,12 @@ export default function Home() {
 
       <main id="top">
         <section className="hero container fade-in">
-          <p className="eyebrow">Software Portfolio</p>
+          <p className="eyebrow">Business Analysis &amp; Software Solutions</p>
           <h1>damato.biz</h1>
           <p className="tagline">
-            A professional home for focused finance, operations, and reporting tools built with clean architecture and reliable deployment workflows.
+            Finance-focused business analyst building technical solutions.
           </p>
           <a href="#projects" className="cta">View Projects</a>
-        </section>
-
-        <section id="about" className="section container fade-in">
-          <h2>About</h2>
-          <p>
-            I build practical software for workflows where accuracy, clarity, and maintainability matter.
-            This site collects the tools I ship, the systems behind them, and the technical profile behind future work.
-          </p>
         </section>
 
         <section id="projects" className="section container fade-in">
@@ -139,24 +129,6 @@ export default function Home() {
                 </article>
               );
             })}
-          </div>
-        </section>
-
-        <section id="skills" className="section container fade-in">
-          <h2>Skills &amp; Tech Stack</h2>
-          <div className="skills-grid" role="list" aria-label="Technology skills">
-            <div className="skill" role="listitem"><i className="devicon-javascript-plain"></i><span>JavaScript</span></div>
-            <div className="skill" role="listitem"><i className="devicon-typescript-plain"></i><span>TypeScript</span></div>
-            <div className="skill" role="listitem"><i className="devicon-react-original"></i><span>React</span></div>
-            <div className="skill" role="listitem"><i className="devicon-nextjs-original"></i><span>Next.js</span></div>
-            <div className="skill" role="listitem"><i className="devicon-nodejs-plain"></i><span>Node.js</span></div>
-            <div className="skill" role="listitem"><i className="devicon-express-original"></i><span>Express</span></div>
-            <div className="skill" role="listitem"><i className="devicon-postgresql-plain"></i><span>PostgreSQL</span></div>
-            <div className="skill" role="listitem"><i className="devicon-supabase-plain"></i><span>Supabase</span></div>
-            <div className="skill" role="listitem"><i className="devicon-tailwindcss-plain"></i><span>Tailwind CSS</span></div>
-            <div className="skill" role="listitem"><i className="devicon-docker-plain"></i><span>Docker</span></div>
-            <div className="skill" role="listitem"><i className="devicon-githubactions-plain"></i><span>GitHub Actions</span></div>
-            <div className="skill" role="listitem"><i className="devicon-vercel-original"></i><span>Vercel</span></div>
           </div>
         </section>
 
