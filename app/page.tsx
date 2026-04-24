@@ -134,7 +134,7 @@ export default function Home() {
 
         <section id="contact" className="section container fade-in">
           <h2>Contact</h2>
-          <p>For professional opportunities and collaborations, reach out via email.</p>
+          <p>Questions, feedback, or collaboration ideas — reach out.</p>
           <a className="contact-link" href="mailto:hello@damato.biz">hello@damato.biz</a>
         </section>
       </main>
