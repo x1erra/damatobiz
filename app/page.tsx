@@ -6,14 +6,12 @@ const projects = [
   {
     name: 'APP Look-Thru Reporting',
     href: '/calc',
-    meta: 'Production Streamlit tool',
     description:
       'Portfolio reporting workflow for APP statements, support files, look-through calculations, and export-ready reporting.',
   },
   {
     name: 'CI Stats Analyzer',
     href: '/csanalyzer',
-    meta: 'Next.js analytics tool',
     description:
       'Custom statement generation analytics with upload management, dashboard views, and problem spotting for operational review.',
   },
@@ -116,7 +114,6 @@ export default function Home() {
 
               return (
                 <article className="card project-card" key={project.name}>
-                  <p className="project-meta">{project.meta}</p>
                   <h3>{project.name}</h3>
                   <p>{project.description}</p>
                   <a
