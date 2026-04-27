@@ -353,6 +353,11 @@ This proves whether the difference is caused by:
 - or a mapping/classification rule."""
 
 
+MANUAL_FILE = Path(__file__).with_name("APP_Look_Thru_Calculation_Manual_Revised.md")
+if MANUAL_FILE.exists():
+    MANUAL_TEXT = MANUAL_FILE.read_text(encoding="utf-8")
+
+
 COMPOSITION_GROUP_ORDER = [
     "Income",
     "Equity",
