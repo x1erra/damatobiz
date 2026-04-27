@@ -1,67 +1,14 @@
-# APP Look-Through Calculation Manual
-## A Clear Manual for Completing the Calculation in Excel
+## Manual Scope
 
-**Version:** April 2026 (Rewritten for clarity)  
-**Goal:** Prepare accurate Portfolio Composition, Portfolio Breakdown, and Portfolio Diversification sections for client statements using a single, easy-to-audit Excel workbook.
+Use this process to calculate the APP statement look-through sections manually in Excel.
 
-This process turns raw eCISS holdings and FactSet mandate files into polished, statement-ready numbers. Follow the steps **left to right** in your workbook — it keeps everything traceable and reduces errors.
+| Section | Denominator | SMA Treatment |
+|---------|-------------|---------------|
+| **Portfolio Composition** | Full portfolio MV (AMA + SMA) | Included |
+| **Portfolio Breakdown** | AMA MV only | Excluded |
+| **Portfolio Diversification** | AMA MV only | Excluded |
 
----
-
-## Quick Overview: What We’re Building
-
-| Section | What It Shows | Denominator Used | Includes SMA? |
-|---------|---------------|------------------|---------------|
-| **Portfolio Composition** | High-level view of the *entire* portfolio | Full portfolio MV (AMA + SMA) | Yes |
-| **Portfolio Breakdown** | Detailed actively managed breakdown | AMA MV only (excludes SMA) | No |
-| **Portfolio Diversification** | Sector and fixed-income detail (most granular) | AMA MV only | No |
-
-**Output Categories by Section**
-
-**Portfolio Composition**
-- Income
-- Equity
-- Balanced
-- Liquid Alternatives
-- Sector
-- Cash
-- Other
-- Private Alternatives
-
-**Portfolio Breakdown**
-- Income
-- International Equity
-- US Equity
-- Canadian Equity
-- Cash
-- Other
-- Alternatives
-
-**Portfolio Diversification**
-- Government Bond
-- Investment Grade Bond
-- High Yield Bond
-- Financials
-- Information Technology
-- Industrials
-- Consumer Discretionary
-- Other
-- Health Care
-- Energy
-- Communication Services
-- Materials
-- Consumer Staples
-- Real Estate
-- Utilities
-- Cash
-- Alternatives
-
-**Key Rules to Remember**
-- AMA = SAA (Strategic) + TAA (Tactical) holdings → use FactSet look-through.
-- SMA holdings → use the SMA reference CSV only; never mix into Portfolio Breakdown section (or Diversification).
-- Always check totals add up to 100% at each stage.
-
----
+Work left to right through the workbook. Do not move numbers into `TOTAL SUMMARY` until the source section ties to its denominator.
 
 ## Before You Start – Gather Your Inputs
 
