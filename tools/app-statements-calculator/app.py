@@ -568,6 +568,9 @@ HISTORY_LIMIT = 50
 FACTSET_MODEL_COLUMNS = ["factset_model_code", "sales_charge_code", "mandate_code", "fund_legal_name", "saa_taa"]
 SMA_GROUPING_PATH = REFERENCE_DIR / "Asset Class Grouping For SMA.csv"
 SMA_GROUPING_NUMBERS_PATH = REFERENCE_DIR / "Asset Class Grouping For SMA.numbers"
+AMA_GROUPING_PATH = REFERENCE_DIR / "Asset Class Grouping For AMA.csv"
+FUND_GROUPING_PATH = REFERENCE_DIR / "Asset Class Grouping Fund Map.csv"
+SECTOR_MAP_PATH = REFERENCE_DIR / "Factset Sector Map.csv"
 HOLDINGS_TEXT_TEMPLATE = ""
 
 
@@ -697,18 +700,28 @@ def load_numbers_table(filepath: str) -> pd.DataFrame:
 
 
 @st.cache_data(show_spinner=False)
-def load_csv_table(filepath: str) -> pd.DataFrame:
+def load_csv_table(filepath: str, mtime_ns: int = 0, size: int = 0) -> pd.DataFrame:
     path = Path(filepath)
     if not path.exists():
         return pd.DataFrame()
     return pd.read_csv(path)
 
 
+def reference_file_signature(path: Path) -> Tuple[int, int]:
+    try:
+        stat = path.stat()
+    except FileNotFoundError:
+        return 0, 0
+    return stat.st_mtime_ns, stat.st_size
+
+
 @st.cache_data(show_spinner=False)
 def load_reference_table(filepath: str) -> pd.DataFrame:
     suffix = Path(filepath).suffix.lower()
     if suffix == ".csv":
-        return load_csv_table(filepath)
+        path = Path(filepath)
+        mtime_ns, size = reference_file_signature(path)
+        return load_csv_table(filepath, mtime_ns, size)
     if suffix == ".numbers":
         return load_numbers_table(filepath)
     if suffix in {".xlsx", ".xls", ".xlsm"}:
@@ -892,6 +905,126 @@ def get_factset_model_table(factset_override: Optional[dict] = None) -> pd.DataF
             override_filename=factset_override["filename"],
         )
     return load_factset_model_codes()
+
+
+def normalize_composition_group(value: object) -> str:
+    key = normalize_key(value)
+    return {
+        "INCOME": "Income",
+        "EQUITY": "Equity",
+        "BALANCED": "Balanced",
+        "LIQUID ALT": "Liquid Alternatives",
+        "LIQUID ALTERNATIVES": "Liquid Alternatives",
+        "SECTOR": "Sector",
+        "CASH": "Cash",
+        "OTHER": "Other",
+        "PRIVATE ALT": "Private Alternatives",
+        "PRIVATE ALTERNATIVES": "Private Alternatives",
+    }.get(key, normalize_text(value))
+
+
+def normalize_report_group(value: object) -> str:
+    key = normalize_key(value)
+    return {
+        "INCOME": "Income",
+        "INCOME (INCL. CASH)": "Cash",
+        "INCOME INCL CASH": "Cash",
+        "INTERNATIONAL EQUITY": "International Equity",
+        "US EQUITY": "US Equity",
+        "U.S. EQUITY": "US Equity",
+        "CANADIAN EQUITY": "Canadian Equity",
+        "CASH": "Cash",
+        "OTHER": "Other",
+        "NOT RATED": "Other",
+        "ALTERNATIVES": "Alternatives",
+        "GOVERNMENT BOND": "Government Bond",
+        "INVESTMENT GRADE BOND": "Investment Grade Bond",
+        "HIGH YIELD BOND": "High Yield Bond",
+        "FINANCIALS": "Financials",
+        "INFORMATION TECHNOLOGY": "Information Technology",
+        "INDUSTRIALS": "Industrials",
+        "CONSUMER DISCRETIONARY": "Consumer Discretionary",
+        "HEALTH CARE": "Health Care",
+        "ENERGY": "Energy",
+        "COMMUNICATION SERVICES": "Communication Services",
+        "MATERIALS": "Materials",
+        "CONSUMER STAPLES": "Consumer Staples",
+        "REAL ESTATE": "Real Estate",
+        "UTILITIES": "Utilities",
+    }.get(key, normalize_text(value))
+
+
+def approved_rows(table: pd.DataFrame) -> pd.DataFrame:
+    if table.empty or "Approval State" not in table.columns:
+        return table
+    return table[table["Approval State"].apply(normalize_key).eq("APPROVED")].copy()
+
+
+def get_ama_grouping_maps() -> Tuple[Dict[str, str], Dict[str, str]]:
+    composition_map = dict(ASSET_CLASS_DETECTION)
+    breakdown_map = dict(BREAKDOWN_DIRECT)
+    if not AMA_GROUPING_PATH.exists():
+        return composition_map, breakdown_map
+
+    table = approved_rows(load_reference_table(str(AMA_GROUPING_PATH)))
+    if table.empty or "Fund Asset Class" not in table.columns:
+        return composition_map, breakdown_map
+
+    for _, row in table.iterrows():
+        key = normalize_key(row.get("Fund Asset Class"))
+        if not key:
+            continue
+        composition = normalize_composition_group(row.get("Portfolio Composition"))
+        if composition:
+            composition_map[key] = composition
+        breakdown = normalize_report_group(row.get("Portfolio Breakdown"))
+        if breakdown:
+            breakdown_map[key] = breakdown
+    return composition_map, breakdown_map
+
+
+def get_fund_grouping_maps() -> Tuple[Dict[str, str], Dict[str, str], Dict[str, str]]:
+    composition_map: Dict[str, str] = {}
+    breakdown_map: Dict[str, str] = {}
+    diversification_map: Dict[str, str] = {}
+    if not FUND_GROUPING_PATH.exists():
+        return composition_map, breakdown_map, diversification_map
+
+    table = approved_rows(load_reference_table(str(FUND_GROUPING_PATH)))
+    if table.empty or "Underlying Fund" not in table.columns:
+        return composition_map, breakdown_map, diversification_map
+
+    for _, row in table.iterrows():
+        key = normalize_key(row.get("Underlying Fund"))
+        if not key:
+            continue
+        composition = normalize_composition_group(row.get("Portfolio Composition"))
+        if composition:
+            composition_map[key] = composition
+        breakdown = normalize_report_group(row.get("Portfolio Breakdown"))
+        if breakdown:
+            breakdown_map[key] = breakdown
+        diversification = normalize_report_group(row.get("Portfolio AAbA"))
+        if diversification:
+            diversification_map[key] = diversification
+    return composition_map, breakdown_map, diversification_map
+
+
+def get_sector_map() -> Dict[str, str]:
+    sector_map = dict(DIVERSIFICATION_DIRECT)
+    if not SECTOR_MAP_PATH.exists():
+        return sector_map
+
+    table = approved_rows(load_reference_table(str(SECTOR_MAP_PATH)))
+    if table.empty or "Sector Name" not in table.columns:
+        return sector_map
+
+    for _, row in table.iterrows():
+        key = normalize_key(row.get("Sector Name"))
+        label = normalize_report_group(row.get("Sector Group English"))
+        if key and label:
+            sector_map[key] = label
+    return sector_map
 
 
 def validate_factset_model_file(record: dict) -> Tuple[bool, str]:
@@ -2260,7 +2393,13 @@ def select_support_rows_by_hierarchy(comp_df: pd.DataFrame, section: str) -> pd.
         normalized = comp_df["Component"].map(normalize_key)
         if section == "composition":
             support_keep = (~has_hierarchy) | indent.eq(4.0)
-            support_keep |= comp_df["Composition Mapping Source"].eq("Funds/Alternatives Detection")
+            support_keep |= comp_df["Composition Mapping Source"].isin(
+                {
+                    "Funds/Alternatives Detection",
+                    "Legacy Funds/Alternatives Fallback",
+                    "Cinchy Fund Map",
+                }
+            )
         else:
             support_keep = pd.Series(False, index=comp_df.index)
             support_keep |= ~has_hierarchy
@@ -2286,13 +2425,21 @@ def select_support_rows_by_hierarchy(comp_df: pd.DataFrame, section: str) -> pd.
             support_keep |= comp_df["Breakdown Mapping Source"].isin(
                 {
                     "Alternatives Detection",
+                    "Legacy Alternatives Fallback",
                     "Other Detection",
+                    "Legacy Other Fallback",
                     "Cash Detection",
+                    "Cinchy Fund Map",
                 }
             )
     elif section == "diversification":
         direct_mask = comp_df["Diversification Mapping Source"].eq("Direct Diversification Rule")
-        fund_mask = comp_df["Diversification Mapping Source"].eq("Fund/Alternatives Detection")
+        fund_mask = comp_df["Diversification Mapping Source"].isin(
+            {
+                "Fund/Alternatives Detection",
+                "Cinchy Fund Map",
+            }
+        )
         support_keep = (~has_hierarchy) | fund_mask | (direct_mask & indent.isin([4.0, 6.0, 8.0]))
     else:
         support_keep = pd.Series(True, index=comp_df.index)
@@ -2336,7 +2483,13 @@ def suppress_alternatives_wrappers(comp_df: pd.DataFrame) -> pd.DataFrame:
             child_weight_total = float(row["Port. Weight"])
 
             composition_child_total = child_rows.loc[
-                child_rows["Composition Mapping Source"].eq("Funds/Alternatives Detection")
+                child_rows["Composition Mapping Source"].isin(
+                    {
+                        "Funds/Alternatives Detection",
+                        "Legacy Funds/Alternatives Fallback",
+                        "Cinchy Fund Map",
+                    }
+                )
                 & child_rows["Composition Group"].astype(str).str.strip().ne(""),
                 "Port. Weight",
             ].sum()
@@ -2348,8 +2501,11 @@ def suppress_alternatives_wrappers(comp_df: pd.DataFrame) -> pd.DataFrame:
                 child_rows["Breakdown Mapping Source"].isin(
                     {
                         "Alternatives Detection",
+                        "Legacy Alternatives Fallback",
                         "Other Detection",
+                        "Legacy Other Fallback",
                         "Cash Detection",
+                        "Cinchy Fund Map",
                     }
                 )
                 & child_rows["Breakdown Group"].astype(str).str.strip().ne(""),
@@ -2410,18 +2566,17 @@ def apply_composition_mapping(component: pd.Series) -> pd.Series:
 
 def classify_composition_mapping(component: pd.Series) -> pd.DataFrame:
     normalized = component.map(normalize_key)
-    base = normalized.map(ASSET_CLASS_DETECTION)
-    override = normalized.map(FUNDS_ALTERNATIVES_DETECTION)
-    final = override.fillna(base).fillna("")
+    ama_composition_map, _ = get_ama_grouping_maps()
+    fund_composition_map, _, _ = get_fund_grouping_maps()
+    base = normalized.map(ama_composition_map)
+    legacy_raw = normalized.map(FUNDS_ALTERNATIVES_DETECTION)
+    legacy_override = legacy_raw.map(lambda value: normalize_composition_group(value) if pd.notna(value) else pd.NA)
+    fund_override = normalized.map(fund_composition_map)
+    final = fund_override.fillna(legacy_override).fillna(base).fillna("")
     source = pd.Series("", index=component.index, dtype="object")
     source.loc[base.notna()] = "Asset Class Detection"
-    source.loc[override.notna()] = "Funds/Alternatives Detection"
-    final = final.replace(
-        {
-            "Private Alt": "Private Alternatives",
-            "Liquid Alt": "Private Alternatives",
-        }
-    )
+    source.loc[legacy_override.notna()] = "Legacy Funds/Alternatives Fallback"
+    source.loc[fund_override.notna()] = "Cinchy Fund Map"
     return pd.DataFrame({"group": final, "source": source}, index=component.index)
 
 
@@ -2431,15 +2586,23 @@ def apply_breakdown_mapping(component: pd.Series) -> pd.Series:
 
 def classify_breakdown_mapping(component: pd.Series) -> pd.DataFrame:
     normalized = component.map(normalize_key)
+    _, ama_breakdown_map = get_ama_grouping_maps()
+    _, fund_breakdown_map, _ = get_fund_grouping_maps()
+    fund_breakdown = normalized.map(fund_breakdown_map)
     result = pd.Series("", index=component.index, dtype="object")
     source = pd.Series("", index=component.index, dtype="object")
-    result.loc[normalized.isin(BREAKDOWN_ALTERNATIVES)] = "Alternatives"
-    source.loc[normalized.isin(BREAKDOWN_ALTERNATIVES)] = "Alternatives Detection"
-    result.loc[normalized.isin(BREAKDOWN_CASH)] = "Cash"
-    source.loc[normalized.isin(BREAKDOWN_CASH)] = "Cash Detection"
-    result.loc[normalized.isin(BREAKDOWN_OTHER)] = "Other"
-    source.loc[normalized.isin(BREAKDOWN_OTHER)] = "Other Detection"
-    for key, label in BREAKDOWN_DIRECT.items():
+    result.loc[fund_breakdown.notna()] = fund_breakdown[fund_breakdown.notna()]
+    source.loc[fund_breakdown.notna()] = "Cinchy Fund Map"
+    blank = result.eq("")
+    result.loc[blank & normalized.isin(BREAKDOWN_ALTERNATIVES)] = "Alternatives"
+    source.loc[blank & normalized.isin(BREAKDOWN_ALTERNATIVES)] = "Legacy Alternatives Fallback"
+    blank = result.eq("")
+    result.loc[blank & normalized.isin(BREAKDOWN_CASH)] = "Cash"
+    source.loc[blank & normalized.isin(BREAKDOWN_CASH)] = "Cash Detection"
+    blank = result.eq("")
+    result.loc[blank & normalized.isin(BREAKDOWN_OTHER)] = "Other"
+    source.loc[blank & normalized.isin(BREAKDOWN_OTHER)] = "Legacy Other Fallback"
+    for key, label in ama_breakdown_map.items():
         result.loc[normalized == key] = label
         source.loc[normalized == key] = "Direct Breakdown Rule"
     return pd.DataFrame({"group": result, "source": source}, index=component.index)
@@ -2452,27 +2615,33 @@ def get_diversification_fund_map() -> Dict[str, str]:
         "MSILF PRIME PORTFOLIO-INST": "Cash",
         "INVESCO PREMIER US GOV MONEY PTF": "Other",
     }
+    _, _, cinchy_diversification_map = get_fund_grouping_maps()
+    fund_map.update(cinchy_diversification_map)
 
     # Diversification treats the underlying alternative sleeves themselves as
     # Alternatives, even when the higher-level breakdown logic classifies some
     # of those names as Other.
     for name in FUNDS_ALTERNATIVES_DETECTION:
         normalized = normalize_key(name)
-        fund_map[name] = non_alternative_overrides.get(normalized, "Alternatives")
+        fund_map.setdefault(normalized, non_alternative_overrides.get(normalized, "Alternatives"))
 
     for name in BREAKDOWN_ALTERNATIVES:
-        fund_map[name] = "Alternatives"
+        fund_map.setdefault(normalize_key(name), "Alternatives")
+
+    for name, label in non_alternative_overrides.items():
+        fund_map[normalize_key(name)] = label
 
     return fund_map
 
 
-DIVERSIFICATION_FUND_MAP = get_diversification_fund_map()
 DIVERSIFICATION_BREAKS = set(DIVERSIFICATION_DIRECT) | DIVERSIFICATION_WRAPPERS
 
 
 def apply_diversification_mapping(comp_df: pd.DataFrame) -> pd.DataFrame:
     result = pd.Series("", index=comp_df.index, dtype="object")
     source = pd.Series("", index=comp_df.index, dtype="object")
+    sector_map = get_sector_map()
+    diversification_fund_map = get_diversification_fund_map()
 
     for _, block in comp_df.groupby("Block Label", sort=False):
         rows = block.copy().reset_index()
@@ -2482,12 +2651,12 @@ def apply_diversification_mapping(comp_df: pd.DataFrame) -> pd.DataFrame:
 
         for _, row in rows.iterrows():
             normalized = row["Normalized Component"]
-            if normalized in DIVERSIFICATION_DIRECT:
-                block_labels.append(DIVERSIFICATION_DIRECT[normalized])
+            if normalized in sector_map:
+                block_labels.append(sector_map[normalized])
                 block_sources.append("Direct Diversification Rule")
-            elif normalized in DIVERSIFICATION_FUND_MAP:
-                block_labels.append(DIVERSIFICATION_FUND_MAP[normalized])
-                block_sources.append("Fund/Alternatives Detection")
+            elif normalized in diversification_fund_map:
+                block_labels.append(diversification_fund_map[normalized])
+                block_sources.append("Cinchy Fund Map")
             else:
                 block_labels.append("")
                 block_sources.append("")
@@ -2506,7 +2675,7 @@ def apply_diversification_mapping(comp_df: pd.DataFrame) -> pd.DataFrame:
                 normalized = rows.at[lookahead, "Normalized Component"]
                 if normalized in DIVERSIFICATION_BREAKS:
                     break
-                if normalized in DIVERSIFICATION_FUND_MAP:
+                if normalized in diversification_fund_map:
                     child_total += float(rows.at[lookahead, "Port. Weight"])
                     child_fund_indices.append(lookahead)
                 lookahead += 1

@@ -1,0 +1,16 @@
+Approval State,Asset Class Group,Name,Name - French,Sequence - Portfolio Composition,Sequence - Portfolio Breakdown,Sequence - Portfolio AAbA
+"Approved","Alternatives","Alternatives","Alternatives","",50,70
+"Approved","Balanced","Balanced","Équilibré",60,"",80
+"Approved","Canadian Equity","Canadian Equity","Actions canadiennes","",20,20
+"Approved","Cash","Cash","Liquidités",70,60,""
+"Approved","Equity","Equity","Actions",20,"",""
+"Approved","Global Equity","Global Equity","Actions mondiales","","",45
+"Approved","Income","Income","Revenu",10,10,""
+"Approved","Income (Incl. Cash)","Income (Incl. Cash)","Revenu (y compris les liquidités)","","",10
+"Approved","International Equity","International Equity","Actions internat.","",40,40
+"Approved","Liquid Alt","Liquid Alternatives","Alternatives liquides",40,"",""
+"Approved","Other","Other","Autre",80,70,90
+"Approved","Private Alt","Private Alternatives","Alternatives privées",50,"",""
+"Approved","Sector","Sector","Secteur",30,"",60
+"Approved","Tactical Allocation","Tactical Allocation","Répartition tactique","","",50
+"Approved","US Equity","US Equity","Actions américaines","",30,30
