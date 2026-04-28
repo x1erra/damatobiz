@@ -1,0 +1,12 @@
+Approval State,Identifier,Fund Asset Class,Factset Level,Parent Level,Parent Level.Fund Asset Class,Portfolio Composition,Portfolio Breakdown,Portfolio AAbA,Check Portfolio Definitions
+"Approved",10,"Equity","2 - Group","","","Equity","","",""
+"Approved",20,"Equity - Canadian Equities","3 - Group",10,"Equity","","Canadian Equity","Canadian Equity",""
+"Approved",30,"Equity - US Equities","3 - Group",10,"Equity","","US Equity","US Equity",""
+"Approved",40,"Equity - International Equities","3 - Group",10,"Equity","","International Equity","International Equity",""
+"Approved",50,"Currency Forwards","2 - Group","","","Other","Other","Other",""
+"Approved",60,"Fixed Income","2 - Group","","","Income","Income","Income","Composition: 10. Breakdown: 10. AAbA: Seq not specified. "
+"Approved",70,"[Cash]","1 - Group","","","Cash","Cash","Cash","Composition: 70. Breakdown: 60. AAbA: Seq not specified. "
+"Approved",80,"Derivatives","2 - Group","","","Other","Other","Other",""
+"Approved",90,"Cash & Equivalents","2 - Group","","","Cash","Cash","Cash","Composition: 70. Breakdown: 60. AAbA: Seq not specified. "
+"Approved",100,"Preferred","2 - Group","","","Other","Other","Other",""
+"Approved",110,"FDS OUTLIER","2 - Group","","","Other","Other","Other",""

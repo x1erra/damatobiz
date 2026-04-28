@@ -564,6 +564,9 @@ IF(INDIRECT("A"&ROW())="CI Lawrence Park Alternative Investment Grade Credit Fun
 IF(INDIRECT("A"&ROW())="Avenue Europe Special Situations Fund V (U.S.), L.P.","Private Alternatives",
 IF(INDIRECT("A"&ROW())="Axia U.S. Grocery Net Lease Fund I LP, Restricted","Private Alternatives",
 IF(INDIRECT("A"&ROW())="CI Adams Street Global Private Markets Fund (Class I)","Private Alternatives",
+IF(INDIRECT("A"&ROW())="CI Alternative Credit Opportunities Fund Series IN","Liquid Alternatives",
+IF(INDIRECT("A"&ROW())="CI Alternative Investment Grade Credit Fund I","Liquid Alternatives",
+IF(INDIRECT("A"&ROW())="CI Alternative Investment Grade Credit Fund (ETF C$ Series)","Liquid Alternatives",
 IF(INDIRECT("A"&ROW())="CI Lawrence Park Alternative Investment Grade Credit Fund","Liquid Alternatives",
 IF(INDIRECT("A"&ROW())="CI PM Growth Fund BL LP (Series I)","Private Alternatives",
 IF(INDIRECT("A"&ROW())="CI Private Markets Growth Fund I","Private Alternatives",
@@ -571,12 +574,12 @@ IF(INDIRECT("A"&ROW())="HarbourVest Adelaide Feeder E LP","Private Alternatives"
 IF(INDIRECT("A"&ROW())="HarbourVest Adelaide Feeder F LP","Private Alternatives",
 IF(INDIRECT("A"&ROW())="HarbourVest Adelaide Feeder G LP","Private Alternatives",
 IF(INDIRECT("A"&ROW())="HarbourVest Infrastructure Income Cayman Parallel Partnership L.","Private Alternatives",
-IF(INDIRECT("A"&ROW())="Institutional Fiduciary Tr Money Mkt Ptf","Equity",
+IF(INDIRECT("A"&ROW())="Institutional Fiduciary Tr Money Mkt Ptf","Cash",
 IF(INDIRECT("A"&ROW())="Monarch Capital Partners Offshore VI LP","Private Alternatives",
-IF(INDIRECT("A"&ROW())="MSILF PRIME PORTFOLIO-INST","Equity",
+IF(INDIRECT("A"&ROW())="MSILF PRIME PORTFOLIO-INST","Cash",
 IF(INDIRECT("A"&ROW())="T.RX Capital Fund I, LP.","Private Alternatives",
 IF(INDIRECT("A"&ROW())="Whitehorse Liquidity Partners V LP","Private Alternatives",
-""))))))))))))))))
+"")))))))))))))))))))
 ```
 
 **Formula C – Portfolio Breakdown**  
@@ -588,6 +591,9 @@ INDIRECT("A"&ROW())="Alate I LP, Restricted",
 INDIRECT("A"&ROW())="Avenue Europe Special Situations Fund V (U.S.), L.P.",
 INDIRECT("A"&ROW())="Axia U.S. Grocery Net Lease Fund I LP, Restricted",
 INDIRECT("A"&ROW())="CI Adams Street Global Private Markets Fund (Class I)",
+INDIRECT("A"&ROW())="CI Alternative Credit Opportunities Fund Series IN",
+INDIRECT("A"&ROW())="CI Alternative Investment Grade Credit Fund I",
+INDIRECT("A"&ROW())="CI Alternative Investment Grade Credit Fund (ETF C$ Series)",
 INDIRECT("A"&ROW())="CI Lawrence Park Alternative Investment Grade Credit Fund",
 INDIRECT("A"&ROW())="CI PM Growth Fund BL LP (Series I)",
 INDIRECT("A"&ROW())="CI Private Markets Growth Fund I",
@@ -636,14 +642,20 @@ IF(INDIRECT("A"&ROW())="Utilities","Utilities",
 IF(INDIRECT("A"&ROW())="Cash","Cash",
 IF(INDIRECT("A"&ROW())="Cash & Equivalents","Cash",
 IF(INDIRECT("A"&ROW())="[Cash]","Cash",
-IF(INDIRECT("A"&ROW())="Alternatives","Alternatives",
+IF(OR(
+INDIRECT("A"&ROW())="Alternatives",
+INDIRECT("A"&ROW())="CI Alternative Credit Opportunities Fund Series IN",
+INDIRECT("A"&ROW())="CI Alternative Investment Grade Credit Fund I",
+INDIRECT("A"&ROW())="CI Alternative Investment Grade Credit Fund (ETF C$ Series)",
+INDIRECT("A"&ROW())="CI Lawrence Park Alternative Investment Grade Credit Fund"),"Alternatives",
 IF(INDIRECT("A"&ROW())="Commodities","Other",
 IF(INDIRECT("A"&ROW())="Preferred","Other",
 IF(INDIRECT("A"&ROW())="Derivatives","Other",
 IF(INDIRECT("A"&ROW())="Currency Forwards","Other",
 IF(INDIRECT("A"&ROW())="FDS OUTLIER","Other",
+IF(INDIRECT("A"&ROW())="Not Rated","Other",
 IF(INDIRECT("A"&ROW())="Other","Other",
-""))))))))))))))))))))))))
+"")))))))))))))))))))))))))
 ```
 
 ---
